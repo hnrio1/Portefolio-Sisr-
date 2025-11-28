@@ -115,8 +115,3 @@ diagnostic-reseau/
 - Administration réseau (TCP/IP, DNS, DHCP)
 - Diagnostic et troubleshooting
 - Documentation technique
-
-## Licence
-
-Projet réalisé dans le cadre du BTS SIO option SISR.
-Libre d'utilisation à des fins éducatives.
