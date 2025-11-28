@@ -50,8 +50,8 @@ Mon parcours est atypique : après un Bac STMG et un BTS Communication obtenu en
 ## Me contacter
 
 - GitHub : [hnrio1](https://github.com/hnrio1)
-- LinkedIn : [À compléter]
-- Email : [À compléter si souhaité]
+- LinkedIn : https://www.linkedin.com/in/henrio-chambal-b185361a8/
+- Email : henriochambal5@gmail.com
 
 ---
 
