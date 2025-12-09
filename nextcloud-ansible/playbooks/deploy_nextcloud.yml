@@ -7,7 +7,7 @@
     nextcloud_version: "latest"
     db_name: nextcloud_db
     db_user: nextcloud_user
-    db_password: 'MotDePasse123'
+    db_password: "{{ vault_db_password }}"  # Mot de passe stocke dans Ansible Vault
 
   tasks:
     - name: Mise a jour du cache APT

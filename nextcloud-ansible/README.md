@@ -82,7 +82,7 @@ Le playbook `deploy_nextcloud.yml` automatise :
     nextcloud_version: "latest"
     db_name: nextcloud_db
     db_user: nextcloud_user
-    db_password: 'MotDePasse123'
+    db_password: "{{ vault_db_password }}"  # Stocke dans Ansible Vault
 
   tasks:
     - name: Mise a jour du cache APT
