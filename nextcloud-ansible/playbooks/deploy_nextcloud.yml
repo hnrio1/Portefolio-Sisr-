@@ -1,0 +1,137 @@
+---
+- name: Deploiement complet de Nextcloud
+  hosts: nextcloud
+  become: yes
+
+  vars:
+    nextcloud_version: "latest"
+    db_name: nextcloud_db
+    db_user: nextcloud_user
+    db_password: 'MotDePasse123'
+
+  tasks:
+    - name: Mise a jour du cache APT
+      apt:
+        update_cache: yes
+
+    - name: Installer Apache, MariaDB, PHP et dependances
+      apt:
+        name:
+          - apache2
+          - mariadb-server
+          - unzip
+          - php
+          - php-cli
+          - php-mysql
+          - php-gd
+          - php-xml
+          - php-mbstring
+          - php-curl
+          - php-zip
+          - php-intl
+          - php-bcmath
+          - libapache2-mod-php
+          - python3-pymysql
+        state: present
+
+    - name: Demarrer Apache
+      service:
+        name: apache2
+        state: started
+        enabled: yes
+
+    - name: Demarrer MariaDB
+      service:
+        name: mariadb
+        state: started
+        enabled: yes
+
+    - name: Creer la base de donnees Nextcloud
+      community.mysql.mysql_db:
+        name: "{{ db_name }}"
+        state: present
+        login_unix_socket: /run/mysqld/mysqld.sock
+
+    - name: Creer utilisateur MariaDB
+      community.mysql.mysql_user:
+        name: "{{ db_user }}"
+        password: "{{ db_password }}"
+        priv: "{{ db_name }}.*:ALL"
+        state: present
+        login_unix_socket: /run/mysqld/mysqld.sock
+
+    - name: Telecharger Nextcloud
+      get_url:
+        url: "https://download.nextcloud.com/server/releases/{{ nextcloud_version }}.zip"
+        dest: "/tmp/nextcloud.zip"
+
+    - name: Decompresser Nextcloud
+      unarchive:
+        src: "/tmp/nextcloud.zip"
+        dest: /var/www/
+        remote_src: yes
+
+    - name: Fixer les permissions
+      file:
+        path: /var/www/nextcloud
+        owner: www-data
+        group: www-data
+        recurse: yes
+
+    - name: Configurer Apache pour Nextcloud
+      copy:
+        dest: /etc/apache2/sites-available/nextcloud.conf
+        content: |
+          <VirtualHost *:80>
+            DocumentRoot /var/www/nextcloud
+            <Directory /var/www/nextcloud>
+              Options +FollowSymlinks
+              AllowOverride All
+              Require all granted
+            </Directory>
+          </VirtualHost>
+
+    - name: Desactiver le site par defaut
+      command: a2dissite 000-default.conf
+      ignore_errors: yes
+
+    - name: Activer le site Nextcloud
+      command: a2ensite nextcloud.conf
+
+    - name: Activer mod_rewrite
+      command: a2enmod rewrite
+
+    - name: Redemarrer Apache
+      service:
+        name: apache2
+        state: restarted
+
+    - name: Installer et configurer UFW
+      apt:
+        name: ufw
+        state: present
+
+    - name: Autoriser SSH dans UFW
+      ufw:
+        rule: allow
+        port: '22'
+
+    - name: Autoriser HTTP dans UFW
+      ufw:
+        rule: allow
+        port: '80'
+
+    - name: Activer UFW
+      ufw:
+        state: enabled
+
+    - name: Installer Fail2ban
+      apt:
+        name: fail2ban
+        state: present
+
+    - name: Demarrer Fail2ban
+      service:
+        name: fail2ban
+        state: started
+        enabled: yes
