@@ -21,17 +21,15 @@ Série de travaux pratiques couvrant l'installation, la configuration et la séc
 - **OpenVPN** - VPN SSL
 - **VMware** - Virtualisation
 
-## Contenu des TPs
+## TPs réalisés
 
-| Fichier | Sujet |
-|---------|-------|
-| `1-installation pfsense.docx` | Installation de pfSense |
-| `2-Configuration de base de pfsense.docx` | Configuration initiale (interfaces, règles) |
-| `3-Sécurité de pfsense.docx` | Sécurisation du pare-feu |
-| `4-pfsense Ldap-Ldaps.docx` | Authentification LDAP/LDAPS |
-| `5-Portail captive.docx` | Mise en place du portail captif |
-| `6-snort IDS-IPS.docx` | Configuration de Snort (IDS/IPS) |
-| `7-openvpn.docx` | Déploiement d'OpenVPN |
+1. Installation de pfSense
+2. Configuration de base (interfaces, règles de filtrage)
+3. Sécurisation du pare-feu
+4. Authentification LDAP/LDAPS
+5. Mise en place du portail captif
+6. Configuration de Snort (IDS/IPS)
+7. Déploiement d'OpenVPN
 
 ## Compétences mobilisées
 
