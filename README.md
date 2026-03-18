@@ -21,15 +21,23 @@ Mon parcours est atypique : après un Bac STMG et un BTS Communication obtenu en
 ### Réseau & Sécurité
 - Configuration de pare-feu (pfSense)
 - Haute disponibilité (HAProxy, Heartbeat)
+- VPN Site-to-Site (IPsec)
+- IDS/IPS (Snort)
 - Outils de pentest (Kali Linux)
+
+### Supervision & Gestion de Parc
+- Nagios (supervision réseau)
+- GLPI / OCS Inventory (gestion de parc, ITIL)
+- Zimbra (messagerie collaborative)
 
 ### Virtualisation
 - VMware Workstation
 - Environnements multi-machines
 
-### Automatisation
+### Automatisation & Développement
 - Ansible
 - Scripts Bash / PowerShell
+- Python (extraction de données, OCR, regex)
 
 ## Projets et réalisations
 
@@ -37,13 +45,20 @@ Mon parcours est atypique : après un Bac STMG et un BTS Communication obtenu en
 |--------|-------------|--------------|
 | [Haute disponibilité HAProxy](./haproxy-heartbeat/) | Mise en place d'une infrastructure hautement disponible avec load balancing | HAProxy, Heartbeat, Debian |
 | [Infrastructure Active Directory](./active-directory/) | Déploiement d'un environnement AD complet avec DNS et DHCP | Windows Server 2019, AD DS, DNS, DHCP |
-| Déploiement Nextcloud | Installation automatisée de Nextcloud via Ansible | Ansible, Nextcloud, Linux |
+| [Déploiement Nextcloud](./nextcloud-ansible/) | Installation automatisée de Nextcloud via Ansible | Ansible, Nextcloud, Linux |
+| [Supervision Nagios](./nagios/) | Mise en place d'un serveur de supervision réseau | Nagios Core, Apache, Debian |
+| [Messagerie Zimbra](./zimbra/) | Déploiement d'un serveur de messagerie intégré à l'AD | Zimbra, Ubuntu, DNS, pfSense |
+| [Pare-feu pfSense](./pfsense/) | Installation, sécurisation, LDAP, portail captif, Snort, OpenVPN | pfSense, Snort, OpenVPN, LDAP |
+| [GLPI & OCS Inventory](./glpi-ocs-inventory/) | Gestion de parc informatique et inventaire mobile | GLPI, OCS Inventory, MariaDB |
+| [Snort IDS/IPS](./snort-ids/) | Détection et prévention d'intrusion réseau | Snort 3, Linux |
+| [VPN Site-to-Site](./vpn-site-to-site/) | Interconnexion sécurisée de deux sites distants | VPN IPsec, pfSense |
+| [Scripts d'extraction (Stage)](./scripts-extraction-stage/) | Automatisation de l'extraction de données PDF pour un cabinet comptable | Python, OCR, pdfplumber, regex |
 
 ## Formation
 
 | Année | Diplôme | Établissement |
 |-------|---------|---------------|
-| 2024-2025 | BTS SIO option SISR | En cours |
+| 2025-2026 | BTS SIO option SISR | En cours |
 | 2022 | BTS Communication | Obtenu |
 | 2020 | Bac STMG | Obtenu |
 
