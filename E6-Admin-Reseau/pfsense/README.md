@@ -23,13 +23,15 @@ Série de travaux pratiques couvrant l'installation, la configuration et la séc
 
 ## TPs réalisés
 
-1. Installation de pfSense
-2. Configuration de base (interfaces, règles de filtrage)
-3. Sécurisation du pare-feu
-4. Authentification LDAP/LDAPS
-5. Mise en place du portail captif
-6. Configuration de Snort (IDS/IPS)
-7. Déploiement d'OpenVPN
+| Fichier | Sujet |
+|---------|-------|
+| [1-installation pfsense.pdf](./1-installation%20pfsense.pdf) | Installation de pfSense |
+| [2-Configuration de base de pfsense.pdf](./2-Configuration%20de%20base%20de%20pfsense.pdf) | Configuration initiale (interfaces, règles) |
+| [3-Sécurité de pfsense.pdf](./3-S%C3%A9curit%C3%A9%20de%20pfsense.pdf) | Sécurisation du pare-feu |
+| [4-pfsense Ldap-Ldaps.pdf](./4-pfsense%20Ldap-Ldaps.pdf) | Authentification LDAP/LDAPS |
+| [5-Portail captive.pdf](./5-Portail%20captive.pdf) | Mise en place du portail captif |
+| [6-snort IDS-IPS.pdf](./6-snort%20IDS-IPS.pdf) | Configuration de Snort (IDS/IPS) |
+| [7-openvpn.pdf](./7-openvpn.pdf) | Déploiement d'OpenVPN |
 
 ## Compétences mobilisées
 
