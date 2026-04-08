@@ -41,4 +41,5 @@ Mise en place d'une solution de gestion de parc informatique avec **GLPI** et **
 
 ## Fichiers
 
-- `Compte Rendu - Thème 15 _ OCS Mobile & GLPI HENRIO CHAMBAL.pdf` - Compte rendu complet
+- `Compte Rendu - Thème 15 _ OCS Mobile & GLPI HENRIO CHAMBAL.pdf` - Compte rendu complet (partie 2 : OCS Mobile & GLPI)
+- `Theme15_RP1_Reseau_Scanners_Tribunes.pdf` - Thème 15 partie 1 : Réseau & Scanners Tribunes
