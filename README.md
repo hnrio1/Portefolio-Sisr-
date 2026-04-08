@@ -60,10 +60,6 @@ Mon parcours est atypique : après un Bac STMG et un BTS Communication obtenu en
 | [Infrastructure Active Directory](./E6-Admin-Reseau/active-directory/) | Déploiement d'un environnement AD complet avec DNS et DHCP | Windows Server 2022, AD DS, DNS, DHCP |
 | [Haute disponibilité HAProxy](./E6-Admin-Reseau/haproxy-heartbeat/) | Infrastructure hautement disponible avec load balancing | HAProxy, Heartbeat, Debian |
 | [Pare-feu pfSense](./E6-Admin-Reseau/pfsense/) | Installation, sécurisation, LDAP, portail captif, Snort, OpenVPN | pfSense, Snort, OpenVPN, LDAP |
-| [Déploiement Nextcloud](./E6-Admin-Reseau/nextcloud-ansible/) | Installation automatisée de Nextcloud via Ansible | Ansible, Nextcloud, Linux |
-| [Script de diagnostic réseau](./E6-Admin-Reseau/diagnostic-reseau/) | Script de diagnostic automatisé | Bash, réseau |
-| [Script de backup](./E6-Admin-Reseau/script-backup/) | Script de sauvegarde automatisée | PowerShell, Bash |
-
 ### E7 - Cybersécurité
 
 | Projet | Description | Technologies |
@@ -71,11 +67,26 @@ Mon parcours est atypique : après un Bac STMG et un BTS Communication obtenu en
 | [Snort IDS/IPS](./E7-Cybersecurite/snort-ids/) | Détection et prévention d'intrusion réseau | Snort 3, Linux |
 | [VPN Site-to-Site](./E7-Cybersecurite/vpn-site-to-site/) | Interconnexion sécurisée de deux sites distants | VPN IPsec, pfSense |
 
-### Stage - Cabinet CECCA
+### Stages
+
+#### Institut Pasteur
 
 | Projet | Description | Technologies |
 |--------|-------------|--------------|
-| [Scripts d'extraction de données](./Stage/scripts-extraction/) | Automatisation de l'extraction de données PDF (2 800 clients) | Python, OCR, pdfplumber, regex |
+| [Déploiement Nextcloud](./Stage/pasteur/nextcloud-ansible/) | Installation automatisée de Nextcloud via Ansible | Ansible, Nextcloud, Linux |
+
+#### Cabinet CECCA
+
+| Projet | Description | Technologies |
+|--------|-------------|--------------|
+| [Scripts d'extraction de données](./Stage/cecca/scripts-extraction/) | Automatisation de l'extraction de données PDF (2 800 clients) | Python, OCR, pdfplumber, regex |
+
+### Projets personnels
+
+| Projet | Description | Technologies |
+|--------|-------------|--------------|
+| [Script de diagnostic réseau](./Projets-Perso/diagnostic-reseau/) | Script de diagnostic réseau automatisé | PowerShell, Bash |
+| [Script de backup](./Projets-Perso/script-backup/) | Script de sauvegarde automatisée | PowerShell, Bash |
 
 ## Veille technologique
 
