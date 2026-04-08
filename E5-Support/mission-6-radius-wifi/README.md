@@ -1,8 +1,8 @@
-# TP RADIUS WiFi - Authentification 802.1X
+# Mission 6 - RADIUS WiFi - Authentification 802.1X
 
 ## Description
 
-Mise en place d'un service d'authentification **RADIUS** avec **802.1X** pour sécuriser l'accès au réseau WiFi dans le cadre du projet StadiumCompany.
+Mise en place d'un service d'authentification **RADIUS** avec **802.1X** pour sécuriser l'accès au réseau WiFi dans le cadre de la **Mission 6** du projet StadiumCompany.
 
 ## Objectifs
 

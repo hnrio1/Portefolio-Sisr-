@@ -1,4 +1,4 @@
-# Haute Disponibilité (HeartBeat) + Load Balancing (HAProxy)
+# Mission 4 - Haute Disponibilité (HeartBeat) + Load Balancing (HAProxy)
 
 > **Auteur** : Henrio Chambal - BTS SIO 2 SISR
 > **Environnement** : VMware Workstation Pro, Debian 12 (Bookworm), Client Windows

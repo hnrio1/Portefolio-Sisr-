@@ -49,7 +49,7 @@ Mon parcours est atypique : après un Bac STMG et un BTS Communication obtenu en
 | [Supervision Nagios](./E5-Support/nagios/) | Mise en place d'un serveur de supervision réseau | Nagios Core, Apache, Debian |
 | [Messagerie Zimbra](./E5-Support/zimbra/) | Déploiement d'un serveur de messagerie intégré à l'AD | Zimbra, Ubuntu, DNS, pfSense |
 | [Thème 15 - GLPI & OCS Inventory](./E5-Support/theme-15/) | Gestion de parc informatique et inventaire mobile | GLPI, OCS Inventory, MariaDB |
-| [RADIUS WiFi](./E5-Support/radius-wifi/) | Authentification 802.1X pour sécuriser l'accès WiFi | NPS, AD CS, 802.1X |
+| [Mission 6 - RADIUS WiFi](./E5-Support/mission-6-radius-wifi/) | Authentification 802.1X pour sécuriser l'accès WiFi | NPS, AD CS, 802.1X |
 | [SSH](./E5-Support/ssh/) | Accès distant sécurisé aux serveurs | OpenSSH, clés RSA |
 | [Missions StadiumCompany](./E5-Support/missions-stadiumcompany/) | Missions 1, 2 et 3 du projet StadiumCompany | Infrastructure réseau |
 
@@ -58,7 +58,7 @@ Mon parcours est atypique : après un Bac STMG et un BTS Communication obtenu en
 | Projet | Description | Technologies |
 |--------|-------------|--------------|
 | [Infrastructure Active Directory](./E6-Admin-Reseau/active-directory/) | Déploiement d'un environnement AD complet avec DNS et DHCP | Windows Server 2022, AD DS, DNS, DHCP |
-| [Haute disponibilité HAProxy](./E6-Admin-Reseau/haproxy-heartbeat/) | Infrastructure hautement disponible avec load balancing | HAProxy, Heartbeat, Debian |
+| [Mission 4 - HAProxy & HeartBeat](./E6-Admin-Reseau/mission-4-haproxy-heartbeat/) | Infrastructure hautement disponible avec load balancing | HAProxy, Heartbeat, Debian |
 | [Pare-feu pfSense](./E6-Admin-Reseau/pfsense/) | Installation, sécurisation, LDAP, portail captif, Snort, OpenVPN | pfSense, Snort, OpenVPN, LDAP |
 ### E7 - Cybersécurité
 
