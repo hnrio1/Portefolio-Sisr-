@@ -23,6 +23,7 @@ Mon parcours est atypique : après un Bac STMG et un BTS Communication obtenu en
 - Haute disponibilité (HAProxy, Heartbeat)
 - VPN Site-to-Site (IPsec)
 - IDS/IPS (Snort)
+- Authentification RADIUS / 802.1X
 - Outils de pentest (Kali Linux)
 
 ### Supervision & Gestion de Parc
@@ -48,12 +49,14 @@ Mon parcours est atypique : après un Bac STMG et un BTS Communication obtenu en
 | [Supervision Nagios](./E5-Support/nagios/) | Mise en place d'un serveur de supervision réseau | Nagios Core, Apache, Debian |
 | [Messagerie Zimbra](./E5-Support/zimbra/) | Déploiement d'un serveur de messagerie intégré à l'AD | Zimbra, Ubuntu, DNS, pfSense |
 | [GLPI & OCS Inventory](./E5-Support/glpi-ocs-inventory/) | Gestion de parc informatique et inventaire mobile | GLPI, OCS Inventory, MariaDB |
+| [RADIUS WiFi](./E5-Support/radius-wifi/) | Authentification 802.1X pour sécuriser l'accès WiFi | NPS, AD CS, 802.1X |
+| [SSH](./E5-Support/ssh/) | Accès distant sécurisé aux serveurs | OpenSSH, clés RSA |
 
 ### E6 - Administration des systèmes et des réseaux
 
 | Projet | Description | Technologies |
 |--------|-------------|--------------|
-| [Infrastructure Active Directory](./E6-Admin-Reseau/active-directory/) | Déploiement d'un environnement AD complet avec DNS et DHCP | Windows Server 2019, AD DS, DNS, DHCP |
+| [Infrastructure Active Directory](./E6-Admin-Reseau/active-directory/) | Déploiement d'un environnement AD complet avec DNS et DHCP | Windows Server 2022, AD DS, DNS, DHCP |
 | [Haute disponibilité HAProxy](./E6-Admin-Reseau/haproxy-heartbeat/) | Infrastructure hautement disponible avec load balancing | HAProxy, Heartbeat, Debian |
 | [Pare-feu pfSense](./E6-Admin-Reseau/pfsense/) | Installation, sécurisation, LDAP, portail captif, Snort, OpenVPN | pfSense, Snort, OpenVPN, LDAP |
 | [Déploiement Nextcloud](./E6-Admin-Reseau/nextcloud-ansible/) | Installation automatisée de Nextcloud via Ansible | Ansible, Nextcloud, Linux |
@@ -80,6 +83,13 @@ Mon parcours est atypique : après un Bac STMG et un BTS Communication obtenu en
 | 2025-2026 | BTS SIO option SISR | En cours |
 | 2022 | BTS Communication | Obtenu |
 | 2020 | Bac STMG | Obtenu |
+
+## Stages
+
+| Période | Entreprise | Missions |
+|---------|------------|----------|
+| 2025 | Cabinet CECCA | Automatisation extraction de données, cartographie réseau, déploiement AnyDesk |
+| 2025 | Institut Pasteur | Administration système et réseau |
 
 ## Me contacter
 

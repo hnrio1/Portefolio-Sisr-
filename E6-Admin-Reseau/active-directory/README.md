@@ -325,3 +325,7 @@ Get-ADComputer -Filter * -Properties IPv4Address | Select Name, IPv4Address
 - **Virtualisation** : VMware Workstation Pro
 - **Services** : AD DS, DNS, DHCP
 - **Outils** : PowerShell, Gestionnaire de serveur, GPMC
+
+## Fichiers
+
+- `TP_AD_DNS_DHCP_Henrio_Chambal.pdf` - Compte rendu complet du TP avec captures d'écran

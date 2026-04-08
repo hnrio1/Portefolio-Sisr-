@@ -230,3 +230,7 @@ service apache2 stop
 - **Services** : Apache2, HeartBeat, HAProxy
 - **Réseau** : LAN Segment VMware
 
+## Fichiers
+
+- `TP_HAProxy_HeartBeat_Henrio.pdf` - Compte rendu complet du TP avec captures d'écran
+
