@@ -48,12 +48,10 @@ Mon parcours est atypique : après un Bac STMG et un BTS Communication obtenu en
 |--------|-------------|--------------|
 | [Supervision Nagios](./E5-Support/nagios/) | Mise en place d'un serveur de supervision réseau | Nagios Core, Apache, Debian |
 | [Messagerie Zimbra](./E5-Support/zimbra/) | Déploiement d'un serveur de messagerie intégré à l'AD | Zimbra, Ubuntu, DNS, pfSense |
-| [GLPI & OCS Inventory](./E5-Support/glpi-ocs-inventory/) | Gestion de parc informatique et inventaire mobile | GLPI, OCS Inventory, MariaDB |
+| [Thème 15 - GLPI & OCS Inventory](./E5-Support/theme-15/) | Gestion de parc informatique et inventaire mobile | GLPI, OCS Inventory, MariaDB |
 | [RADIUS WiFi](./E5-Support/radius-wifi/) | Authentification 802.1X pour sécuriser l'accès WiFi | NPS, AD CS, 802.1X |
 | [SSH](./E5-Support/ssh/) | Accès distant sécurisé aux serveurs | OpenSSH, clés RSA |
-| [Mission 1](./E5-Support/MISSION%201.pdf) | Première mission StadiumCompany | Infrastructure réseau |
-| [Mission 2](./E5-Support/MISSION%202.pdf) | Deuxième mission StadiumCompany | Infrastructure réseau |
-| [Mission 3 - VPN](./E5-Support/MISSION_3_VPN_Henrio.pdf) | Troisième mission StadiumCompany - VPN | VPN, Packet Tracer |
+| [Missions StadiumCompany](./E5-Support/missions-stadiumcompany/) | Missions 1, 2 et 3 du projet StadiumCompany | Infrastructure réseau |
 
 ### E6 - Administration des systèmes et des réseaux
 
