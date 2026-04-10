@@ -88,6 +88,12 @@ Mon parcours est atypique : après un Bac STMG et un BTS Communication obtenu en
 | [Script de diagnostic réseau](./Projets-Perso/diagnostic-reseau/) | Script de diagnostic réseau automatisé | PowerShell, Bash |
 | [Script de backup](./Projets-Perso/script-backup/) | Script de sauvegarde automatisée | PowerShell, Bash |
 
+## [Tableau de synthese](./Tableau-de-synthese/)
+
+*A completer*
+
+---
+
 ## Veille technologique
 
 *Section en cours de construction — sujet à définir.*
