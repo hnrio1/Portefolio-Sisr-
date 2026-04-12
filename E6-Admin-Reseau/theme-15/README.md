@@ -12,12 +12,14 @@ Contexte : infrastructure réseau, supervision et gestion de parc pour la socié
 Infrastructure Wi-Fi pour les hôtesses d'accueil utilisant des smartphones scanners dans les tribunes : VLAN dédié, bornes Wi-Fi, routage inter-VLAN.
 
 ### RP2 - Gestion Smartphones et Coordination
-[RP2_Gestion_Smartphones_Coordination.pdf](./RP2_Gestion_Smartphones_Coordination.pdf) — 50 pages
+[RP2_Documentation_Technique.pdf](./RP2_Documentation_Technique.pdf) — 75 pages
 
-Gestion du parc de smartphones via **OCS/GLPI**, messagerie collaborative **Zimbra** pour les briefings d'avant-match et **supervision Nagios** des bornes Wi-Fi des tribunes. Contient :
+Documentation technique du RP2 (la page de garde et la fiche descriptive officielles sont dans le dossier physique).
 
-- Page de garde officielle du dossier
-- Fiche descriptive (Annexe VII-1-A)
-- Schéma d'architecture
-- Installation complète de Nagios Core (30 étapes détaillées)
-- Configuration et tests de Zimbra (14 étapes détaillées)
+Contient les 3 services qui composent la solution :
+
+1. **OCS Inventory & GLPI** — Gestion de parc smartphones + tickets ITIL (27 étapes)
+2. **Nagios Core** — Supervision des bornes Wi-Fi des tribunes (30 étapes)
+3. **Zimbra** — Messagerie collaborative pour les briefings (14 étapes)
+
+Chaque étape est numérotée, expliquée et accompagnée de sa capture d'écran.
