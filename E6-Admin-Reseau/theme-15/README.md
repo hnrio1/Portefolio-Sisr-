@@ -7,9 +7,14 @@ Contexte : infrastructure réseau, supervision et gestion de parc pour la socié
 ## Réalisations Professionnelles
 
 ### RP1 - Réseau Scanners Tribunes
-*En cours de finalisation*
+[RP1_Documentation_Technique.pdf](./RP1_Documentation_Technique.pdf) — 42 pages
 
-Infrastructure Wi-Fi pour les hôtesses d'accueil utilisant des smartphones scanners dans les tribunes : VLAN dédié, bornes Wi-Fi, routage inter-VLAN.
+Infrastructure Wi-Fi et gestion des comptes pour les hôtesses d'accueil utilisant des smartphones scanners dans les tribunes.
+
+Contient les 2 parties qui composent la solution :
+
+1. **VLAN 50 & Bornes Wi-Fi Tribunes** — Configuration du VLAN dédié (172.20.5.0/24), trunk 802.1Q, routage inter-VLAN et déploiement des bornes Wi-Fi
+2. **Active Directory & GPO** — Création du groupe et de l'UO "Accueil-Tribunes", déploiement d'une GPO pour le mappage du lecteur H
 
 ### RP2 - Gestion Smartphones et Coordination
 [RP2_Documentation_Technique.pdf](./RP2_Documentation_Technique.pdf) — 75 pages
