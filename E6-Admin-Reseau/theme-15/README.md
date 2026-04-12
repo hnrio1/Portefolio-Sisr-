@@ -1,30 +1,23 @@
 # Thème 15 - StadiumCompany
 
-Projet complet du Thème 15 BTS SIO SISR autour de l'infrastructure de la société fictive StadiumCompany.
+Dossier des Réalisations Professionnelles pour l'épreuve E6 (Administration des systèmes et des réseaux) du BTS SIO SISR.
 
-Toutes les parties sont regroupées dans un seul PDF structuré, avec une introduction pour chaque section et chaque étape numérotée et expliquée.
+Contexte : infrastructure réseau, supervision et gestion de parc pour la société fictive **StadiumCompany** (gestion et administration d'événements sportifs).
 
-## Contenu
+## Réalisations Professionnelles
 
-1. **RP1 - Active Directory & GPO** (Windows Server 2022)
-2. **Nagios Core** - Supervision réseau
-3. **Zimbra** - Serveur de messagerie
-4. **OCS Inventory & GLPI** - Gestion de parc mobile
-5. **RP2 - Suite Nagios** (installation détaillée pas à pas)
-6. **RP2 - Suite Zimbra** (gestion des comptes et tests messagerie)
+### RP1 - Réseau Scanners Tribunes
+*En cours de finalisation*
 
-## Technologies utilisées
+Infrastructure Wi-Fi pour les hôtesses d'accueil utilisant des smartphones scanners dans les tribunes : VLAN dédié, bornes Wi-Fi, routage inter-VLAN.
 
-- **Windows Server 2022** - Active Directory, DNS, DHCP, GPO
-- **Debian 12** - Système d'exploitation serveur Linux
-- **Ubuntu Server** - Hôte Zimbra
-- **Nagios Core** - Supervision réseau
-- **Zimbra Collaboration** - Messagerie
-- **GLPI / OCS Inventory** - Gestion de parc et helpdesk
-- **MariaDB / Apache** - Stack LAMP
-- **BlueStacks** - Émulateur Android
-- **VMware Workstation** - Virtualisation
+### RP2 - Gestion Smartphones et Coordination
+[RP2_Gestion_Smartphones_Coordination.pdf](./RP2_Gestion_Smartphones_Coordination.pdf) — 50 pages
 
-## Accéder au TP complet
+Gestion du parc de smartphones via **OCS/GLPI**, messagerie collaborative **Zimbra** pour les briefings d'avant-match et **supervision Nagios** des bornes Wi-Fi des tribunes. Contient :
 
-[TP_Complet_Theme15/Theme15_TP_Complet.pdf](./TP_Complet_Theme15/Theme15_TP_Complet.pdf) — 144 pages
+- Page de garde officielle du dossier
+- Fiche descriptive (Annexe VII-1-A)
+- Schéma d'architecture
+- Installation complète de Nagios Core (30 étapes détaillées)
+- Configuration et tests de Zimbra (14 étapes détaillées)
