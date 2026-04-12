@@ -94,9 +94,13 @@ Mon parcours est atypique : après un Bac STMG et un BTS Communication obtenu en
 
 ---
 
-## Veille technologique
+## [Veille technologique](./Veille-Technologique/)
 
-*Section en cours de construction — sujet à définir.*
+**Sujet :** Suivi des alertes de cybersécurité du CERT-FR (ANSSI) et des vulnérabilités impactant les infrastructures SISR.
+
+- [Dispositif de veille](./Veille-Technologique/Dispositif-de-veille.md) — sources, outils, méthode
+- [Étude approfondie : MITRE ATT&CK](./Veille-Technologique/Etude-MITRE-ATTCK.md) — framework de référence en cybersécurité
+- [Fiches de veille](./Veille-Technologique/Fiches/) — synthèses hebdomadaires
 
 ---
 
