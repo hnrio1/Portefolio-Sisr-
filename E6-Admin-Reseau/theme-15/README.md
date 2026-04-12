@@ -1,45 +1,30 @@
-# Thème 15 - GLPI & OCS Inventory (Gestion de Parc Mobile)
+# Thème 15 - StadiumCompany
 
-## Description
+Projet complet du Thème 15 BTS SIO SISR autour de l'infrastructure de la société fictive StadiumCompany.
 
-Mise en place d'une solution de gestion de parc informatique avec **GLPI** et **OCS Inventory**, incluant l'inventaire de terminaux mobiles Android via un émulateur, dans le cadre du Thème 15 du BTS SIO.
+Toutes les parties sont regroupées dans un seul PDF structuré, avec une introduction pour chaque section et chaque étape numérotée et expliquée.
 
-## Objectifs
+## Contenu
 
-- Installer et configurer OCS Inventory sur Debian
-- Installer et configurer GLPI
-- Intégrer OCS Inventory à GLPI
-- Inventorier des terminaux mobiles (Android via BlueStacks)
-- Gérer des tickets ITIL dans GLPI
+1. **RP1 - Active Directory & GPO** (Windows Server 2022)
+2. **Nagios Core** - Supervision réseau
+3. **Zimbra** - Serveur de messagerie
+4. **OCS Inventory & GLPI** - Gestion de parc mobile
+5. **RP2 - Suite Nagios** (installation détaillée pas à pas)
+6. **RP2 - Suite Zimbra** (gestion des comptes et tests messagerie)
 
 ## Technologies utilisées
 
-- **GLPI** - Gestion de parc et helpdesk
-- **OCS Inventory** - Inventaire automatique
-- **MariaDB** - Base de données
-- **Apache** - Serveur web
+- **Windows Server 2022** - Active Directory, DNS, DHCP, GPO
+- **Debian 12** - Système d'exploitation serveur Linux
+- **Ubuntu Server** - Hôte Zimbra
+- **Nagios Core** - Supervision réseau
+- **Zimbra Collaboration** - Messagerie
+- **GLPI / OCS Inventory** - Gestion de parc et helpdesk
+- **MariaDB / Apache** - Stack LAMP
 - **BlueStacks** - Émulateur Android
-- **Debian** - Système d'exploitation serveur
+- **VMware Workstation** - Virtualisation
 
-## Étapes principales
+## Accéder au TP complet
 
-1. Installation des dépendances (Apache, MariaDB)
-2. Création des bases de données OCS et GLPI
-3. Installation et configuration d'OCS Inventory
-4. Installation et configuration de GLPI
-5. Intégration du plugin OCS dans GLPI
-6. Inventaire d'un terminal Android (via émulateur BlueStacks)
-7. Import de l'inventaire dans GLPI
-8. Création et gestion de tickets ITIL
-
-## Compétences mobilisées
-
-- Administration de bases de données
-- Déploiement d'applications web
-- Gestion de parc informatique (ITIL)
-- Inventaire et suivi d'équipements
-
-## Fichiers
-
-- `Theme15_RP1_AD_GPO.pdf` - Thème 15 partie 1 : Active Directory & GPO
-- `Compte Rendu - Thème 15 _ OCS Mobile & GLPI HENRIO CHAMBAL.pdf` - Thème 15 partie 2 : OCS Mobile & GLPI
+[TP_Complet_Theme15/Theme15_TP_Complet.pdf](./TP_Complet_Theme15/Theme15_TP_Complet.pdf) — 144 pages
