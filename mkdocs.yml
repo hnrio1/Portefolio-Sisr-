@@ -1,19 +1,22 @@
 site_name: Portfolio SISR — Henrio Chambal
 site_url: https://hnrio1.github.io/Portefolio-Sisr-/
 site_description: Portfolio BTS SIO SISR — Henrio Chambal
+site_author: Henrio Chambal
 
 theme:
   name: material
   language: fr
+  logo: https://raw.githubusercontent.com/hnrio1/Portefolio-Sisr-/main/docs/icon.png
+  favicon: https://raw.githubusercontent.com/hnrio1/Portefolio-Sisr-/main/docs/icon.png
   palette:
     - scheme: slate
-      primary: blue
+      primary: indigo
       accent: cyan
       toggle:
         icon: material/brightness-4
         name: Mode clair
     - scheme: default
-      primary: blue
+      primary: indigo
       accent: cyan
       toggle:
         icon: material/brightness-7
@@ -22,10 +25,24 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.tabs
     - search.highlight
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+repo_url: https://github.com/hnrio1/Portefolio-Sisr-
+repo_name: Portefolio-Sisr-
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/hnrio1
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/henrio-chambal-b185361a8/
 
 nav:
-  - Accueil: README.md
+  - Accueil: index.md
   - E5 - Support:
     - Supervision Nagios: E5-Support/nagios/README.md
     - Messagerie Zimbra: E5-Support/zimbra/README.md
@@ -51,20 +68,28 @@ nav:
     - Presentation: Veille-Technologique/README.md
     - Dispositif de veille: Veille-Technologique/Dispositif-de-veille.md
     - Etude MITRE ATT&CK: Veille-Technologique/Etude-MITRE-ATTCK.md
-    - Fiches:
+    - Fiches de veille:
       - OpenSSH regreSSHion: Veille-Technologique/Fiches/2025-09-15-faille-openssh.md
       - XSS pfSense: Veille-Technologique/Fiches/2025-11-20-faille-pfsense-xss.md
       - Zerologon AD: Veille-Technologique/Fiches/2026-01-10-faille-windows-ad.md
       - Path Traversal Apache: Veille-Technologique/Fiches/2026-03-05-faille-apache-path-traversal.md
 
-docs_dir: .
+docs_dir: docs
 
 markdown_extensions:
   - tables
   - attr_list
   - def_list
   - admonition
-  - pymdownx.highlight
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
