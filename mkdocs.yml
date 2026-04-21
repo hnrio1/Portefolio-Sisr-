@@ -1,0 +1,70 @@
+site_name: Portfolio SISR — Henrio Chambal
+site_url: https://hnrio1.github.io/Portefolio-Sisr-/
+site_description: Portfolio BTS SIO SISR — Henrio Chambal
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: slate
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Mode clair
+    - scheme: default
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Mode sombre
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+
+nav:
+  - Accueil: README.md
+  - E5 - Support:
+    - Supervision Nagios: E5-Support/nagios/README.md
+    - Messagerie Zimbra: E5-Support/zimbra/README.md
+    - RADIUS WiFi: E5-Support/mission-6-radius-wifi/README.md
+    - SSH: E5-Support/ssh/README.md
+    - Missions StadiumCompany: E5-Support/missions-stadiumcompany/README.md
+    - Active Directory: E5-Support/active-directory/README.md
+    - HAProxy & HeartBeat: E5-Support/mission-4-haproxy-heartbeat/README.md
+    - Pare-feu pfSense: E5-Support/pfsense/README.md
+  - E6 - Admin Reseau:
+    - GLPI & OCS Inventory: E6-Admin-Reseau/theme-15/README.md
+  - E7 - Cybersecurite:
+    - Snort IDS/IPS: E7-Cybersecurite/snort-ids/README.md
+    - VPN Site-to-Site: E7-Cybersecurite/vpn-site-to-site/README.md
+  - Stages:
+    - Pasteur - Nextcloud Ansible: Stage/pasteur/nextcloud-ansible/README.md
+    - CECCA - Scripts extraction: Stage/cecca/scripts-extraction/README.md
+  - Projets Perso:
+    - Diagnostic reseau: Projets-Perso/diagnostic-reseau/README.md
+    - Script de backup: Projets-Perso/script-backup/README.md
+  - Tableau de synthese: Tableau-de-synthese/README.md
+  - Veille Technologique:
+    - Presentation: Veille-Technologique/README.md
+    - Dispositif de veille: Veille-Technologique/Dispositif-de-veille.md
+    - Etude MITRE ATT&CK: Veille-Technologique/Etude-MITRE-ATTCK.md
+    - Fiches:
+      - OpenSSH regreSSHion: Veille-Technologique/Fiches/2025-09-15-faille-openssh.md
+      - XSS pfSense: Veille-Technologique/Fiches/2025-11-20-faille-pfsense-xss.md
+      - Zerologon AD: Veille-Technologique/Fiches/2026-01-10-faille-windows-ad.md
+      - Path Traversal Apache: Veille-Technologique/Fiches/2026-03-05-faille-apache-path-traversal.md
+
+docs_dir: .
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - def_list
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
