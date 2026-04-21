@@ -41,19 +41,21 @@ Le CERT-FR est le centre gouvernemental de veille, d'alerte et de réponse aux a
 
 ## 3. Outils de veille
 
-### Flux RSS — Feedly
-J'utilise **Feedly** comme agrégateur pour centraliser toutes mes sources en un seul endroit. Cela me permet de consulter rapidement toutes les nouvelles publications sans visiter chaque site individuellement.
+### Google Alerts (outil principal)
+J'utilise **Google Alerts** pour recevoir automatiquement par mail les articles liés à mes sujets de veille. Trois alertes sont configurées :
 
-**Flux ajoutés :**
-- `https://www.cert.ssi.gouv.fr/feed/` (CERT-FR avis)
-- `https://www.cert.ssi.gouv.fr/alerte/feed/` (CERT-FR alertes)
-- Flux RSS LeMagIT cybersécurité
-- Flux RSS Bleeping Computer
+- **"cybersécurité vulnérabilité"** — actualités françaises sur les failles de sécurité
+- **"CERT-FR ANSSI"** — bulletins officiels de l'agence nationale de cybersécurité
+- **"CVE critical vulnerability"** — couverture internationale des vulnérabilités critiques
 
-### Bookmarks et favoris
-Les sites consultés régulièrement sont ajoutés en favoris dans mon navigateur pour un accès rapide.
+Les alertes arrivent directement dans ma boîte Gmail, ce qui me permet de ne rien rater sans devoir consulter chaque site manuellement.
 
-### Prises de notes — Obsidian / Markdown
+### Consultation directe des sources
+En complément de Google Alerts, je consulte régulièrement ces sites en favoris :
+- **cert.ssi.gouv.fr** — alertes et avis officiels du CERT-FR
+- **bleepingcomputer.com** — actualité cybersécurité internationale
+
+### Prises de notes — Markdown / Git
 Pour chaque information jugée pertinente, je crée une **fiche de veille** au format Markdown dans le dossier `Fiches/` de ce portfolio. Le format Markdown me permet de versionner mes notes sur Git et d'avoir une traçabilité dans le temps.
 
 ## 4. Méthode et fréquence
@@ -88,16 +90,6 @@ Chaque fiche contient les éléments suivants :
 - **Ma synthèse personnelle** : ce que j'en retiens
 
 Un modèle vierge est disponible : [Fiches/MODELE-fiche.md](./Fiches/MODELE-fiche.md)
-
-## 6. Lien avec les compétences du BTS SIO SISR
-
-Cette veille participe directement aux compétences suivantes :
-
-| Compétence | Lien avec ma veille |
-|------------|---------------------|
-| **B2.1** - Concevoir une solution d'infrastructure réseau | La connaissance des vulnérabilités oriente les choix d'architecture et de durcissement |
-| **B2.3** - Exploiter, dépanner et superviser une solution d'infrastructure réseau | Les bulletins de sécurité guident les correctifs à appliquer dans le cycle de vie de l'infra |
-| **B3** - Cybersécurité | La compréhension des menaces est la base même de la défense |
 
 ---
 

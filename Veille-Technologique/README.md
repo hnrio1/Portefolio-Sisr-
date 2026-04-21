@@ -22,14 +22,3 @@ Suivre le CERT-FR me permet de :
 | [Étude approfondie - MITRE ATT&CK](./Etude-MITRE-ATTCK.md) | Étude d'un framework de référence en cybersécurité défensive |
 | [Fiches de veille](./Fiches/) | Synthèses hebdomadaires des informations collectées |
 
-## Lien avec le référentiel BTS SIO SISR
-
-Cette veille mobilise des compétences du **bloc 2 - Administration des systèmes et des réseaux** :
-
-- **B2.1** — Concevoir une solution d'infrastructure réseau : connaître les failles pour concevoir une infra résiliente
-- **B2.3** — Exploiter, dépanner et superviser une solution d'infrastructure réseau : appliquer les correctifs de sécurité dans le cadre du maintien en conditions opérationnelles
-- **B3 (E7)** — Cybersécurité des services informatiques : comprendre les menaces pour les contrer
-
-Et du **bloc 1 - Support et mise à disposition de services** :
-
-- **B1** — Gestion des changements : intégrer les correctifs de sécurité dans le processus de mise à jour

@@ -120,11 +120,6 @@ Cette grille de lecture permet à un analyste SOC de **reconstruire une attaque*
 3. **Une meilleure compréhension** de ce qu'un SOC fait au quotidien
 4. **Des idées concrètes de durcissement** pour les infrastructures que je déploie en TP
 
-**Lien avec mes TPs :**
-- Mon TP **Active Directory** peut être analysé à la lumière des techniques Kerberoasting (T1558.003) ou DCSync (T1003.006)
-- Mon TP **pfSense + OpenVPN** aide à contrer les techniques d'exfiltration (T1041 Exfiltration Over C2 Channel)
-- Mon TP **Nagios** permet de détecter certaines anomalies comportementales utiles à la détection ATT&CK
-
 ## 8. Conclusion
 
 MITRE ATT&CK est devenu un **standard incontournable** dans le monde de la cybersécurité défensive. Pour un étudiant SISR visant un poste en SOC, maîtriser ce framework est un réel atout professionnel et un point fort à mentionner à un entretien.

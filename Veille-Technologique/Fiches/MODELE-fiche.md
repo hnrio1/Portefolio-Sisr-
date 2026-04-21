@@ -50,9 +50,3 @@
 
 *Ce que je retiens de cette information. Qu'est-ce que ça m'apprend ? En quoi c'est pertinent pour un SISR / analyste SOC ?*
 
-## Compétences BTS SIO mobilisées
-
-- [ ] B2.1 — Conception d'infrastructure
-- [ ] B2.2 — Déploiement / installation
-- [ ] B2.3 — Exploitation / supervision
-- [ ] B3 — Cybersécurité
