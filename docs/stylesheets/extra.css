@@ -1,0 +1,88 @@
+/* Tables plus propres */
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.md-typeset table:not([class]) thead {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+.md-typeset table:not([class]) th {
+  font-weight: 600;
+  padding: 12px 16px;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 10px 16px;
+}
+
+.md-typeset table:not([class]) tbody tr:hover {
+  background-color: rgba(var(--md-primary-fg-color--rgb), 0.05);
+}
+
+/* Liens PDF avec icone */
+a[href$=".pdf"]::before {
+  content: "📄 ";
+}
+
+a[href$=".xlsx"]::before {
+  content: "📊 ";
+}
+
+/* Page d'accueil */
+.md-typeset h1 {
+  font-weight: 700;
+  border-bottom: 3px solid var(--md-primary-fg-color);
+  padding-bottom: 8px;
+}
+
+.md-typeset h2 {
+  margin-top: 1.5em;
+}
+
+/* Meilleur espacement general */
+.md-typeset hr {
+  margin: 2em 0;
+  border-color: rgba(var(--md-primary-fg-color--rgb), 0.2);
+}
+
+/* Images responsives */
+.md-typeset img {
+  border-radius: 6px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+  max-width: 100%;
+}
+
+/* Boutons de telechargement */
+.md-typeset a[href$=".pdf"],
+.md-typeset a[href$=".xlsx"] {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 6px;
+  background-color: rgba(var(--md-primary-fg-color--rgb), 0.1);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.md-typeset a[href$=".pdf"]:hover,
+.md-typeset a[href$=".xlsx"]:hover {
+  background-color: rgba(var(--md-primary-fg-color--rgb), 0.2);
+}
+
+/* Code blocks */
+.md-typeset code {
+  border-radius: 4px;
+}
+
+/* Footer social links */
+.md-social__link {
+  transition: transform 0.2s;
+}
+
+.md-social__link:hover {
+  transform: scale(1.2);
+}

@@ -20,11 +20,14 @@ theme:
         icon: material/brightness-7
         name: Mode sombre
   features:
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.sections
     - navigation.top
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
+    - navigation.path
     - search.highlight
     - search.suggest
     - content.code.copy
@@ -91,6 +94,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
 
 extra_javascript:
   - javascripts/extra.js
