@@ -6,8 +6,6 @@ site_author: Henrio Chambal
 theme:
   name: material
   language: fr
-  logo: https://raw.githubusercontent.com/hnrio1/Portefolio-Sisr-/main/docs/icon.png
-  favicon: https://raw.githubusercontent.com/hnrio1/Portefolio-Sisr-/main/docs/icon.png
   palette:
     - scheme: slate
       primary: indigo
@@ -23,16 +21,19 @@ theme:
         name: Mode sombre
   features:
     - navigation.sections
-    - navigation.expand
     - navigation.top
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
     - search.highlight
+    - search.suggest
     - content.code.copy
+    - content.tabs.link
   icon:
     repo: fontawesome/brands/github
 
 repo_url: https://github.com/hnrio1/Portefolio-Sisr-
-repo_name: Portefolio-Sisr-
+repo_name: Portfolio GitHub
 
 extra:
   social:
