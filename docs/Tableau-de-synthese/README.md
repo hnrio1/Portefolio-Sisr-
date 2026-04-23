@@ -1,5 +1,5 @@
 # Tableau de synthese — Epreuve E5
 
-![Tableau de synthese](tableau_synthese.png)
+<embed src="Tableau_de_synthese_E5_Henrio.pdf" type="application/pdf" width="100%" height="800px">
 
-[:material-download: Telecharger le tableau (Excel)](Tableau_de_synthese_E5_Henrio.xlsx){ target="_blank" }
+[:material-download: Telecharger le tableau (PDF)](Tableau_de_synthese_E5_Henrio.pdf){ target="_blank" }
