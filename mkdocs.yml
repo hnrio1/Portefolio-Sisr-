@@ -48,6 +48,7 @@ extra:
 nav:
   - Accueil: index.md
   - E5 - Support:
+    - Tableau de synthese: Tableau-de-synthese/README.md
     - Supervision Nagios: E5-Support/nagios/README.md
     - Messagerie Zimbra: E5-Support/zimbra/README.md
     - RADIUS WiFi: E5-Support/mission-6-radius-wifi/README.md
@@ -67,7 +68,6 @@ nav:
   - Projets Perso:
     - Diagnostic reseau: Projets-Perso/diagnostic-reseau/README.md
     - Script de backup: Projets-Perso/script-backup/README.md
-  - Tableau de synthese: Tableau-de-synthese/README.md
   - Veille Technologique:
     - Presentation: Veille-Technologique/README.md
     - Dispositif de veille: Veille-Technologique/Dispositif-de-veille.md
