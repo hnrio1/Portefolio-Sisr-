@@ -38,4 +38,4 @@ Mise en place d'un serveur de supervision **Nagios Core** pour surveiller l'infr
 
 ## Fichiers
 
-- `TP_NAGIOS_CHAMBAL_Henrio.pdf` - Compte rendu complet du TP avec captures d'écran
+- [TP_NAGIOS_CHAMBAL_Henrio.pdf](./TP_NAGIOS_CHAMBAL_Henrio.pdf) - Compte rendu complet du TP avec captures d'écran

@@ -25,4 +25,4 @@ Configuration d'un tunnel **VPN Site-to-Site** pour interconnecter deux réseaux
 
 ## Fichiers
 
-- `VPN Site to Site.pdf` - Documentation et configuration du VPN
+- [VPN Site to Site.pdf](./VPN%20Site%20to%20Site.pdf) - Documentation et configuration du VPN

@@ -232,5 +232,5 @@ service apache2 stop
 
 ## Fichiers
 
-- `TP_HAProxy_HeartBeat_Henrio.pdf` - Compte rendu complet du TP avec captures d'écran
+- [TP_HAProxy_HeartBeat_Henrio.pdf](./TP_HAProxy_HeartBeat_Henrio.pdf) - Compte rendu complet du TP avec captures d'écran
 

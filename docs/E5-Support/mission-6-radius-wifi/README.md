@@ -27,4 +27,4 @@ Mise en place d'un service d'authentification **RADIUS** avec **802.1X** pour s�
 
 ## Fichiers
 
-- `Rapport_RADIUS_WiFi.pdf` - Compte rendu complet du TP avec captures d'écran
+- [Rapport_RADIUS_WiFi.pdf](./Rapport_RADIUS_WiFi.pdf) - Compte rendu complet du TP avec captures d'écran

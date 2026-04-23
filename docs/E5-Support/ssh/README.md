@@ -26,4 +26,4 @@ Mise en place et configuration du protocole **SSH** pour l'accès distant sécur
 
 ## Fichiers
 
-- `TP_SSH.pdf` - Compte rendu complet du TP
+- [TP_SSH.pdf](./TP_SSH.pdf) - Compte rendu complet du TP

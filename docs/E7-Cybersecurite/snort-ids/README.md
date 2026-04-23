@@ -27,4 +27,4 @@ Mise en place et configuration de **Snort**, un système de détection et de pr�
 
 ## Fichiers
 
-- `SNORT.pdf` - Documentation et compte rendu du TP
+- [SNORT.pdf](./SNORT.pdf) - Documentation et compte rendu du TP

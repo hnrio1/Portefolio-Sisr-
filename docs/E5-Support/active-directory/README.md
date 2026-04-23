@@ -328,4 +328,4 @@ Get-ADComputer -Filter * -Properties IPv4Address | Select Name, IPv4Address
 
 ## Fichiers
 
-- `TP_AD_DNS_DHCP_Henrio_Chambal.pdf` - Compte rendu complet du TP avec captures d'écran
+- [TP_AD_DNS_DHCP_Henrio_Chambal.pdf](./TP_AD_DNS_DHCP_Henrio_Chambal.pdf) - Compte rendu complet du TP avec captures d'écran

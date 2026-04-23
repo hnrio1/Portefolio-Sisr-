@@ -35,4 +35,4 @@ Déploiement d'un serveur de messagerie **Zimbra** intégré à l'infrastructure
 
 ## Fichiers
 
-- `TP_ZIMBRA_CHAMBAL_Henrio.pdf` - Compte rendu complet du TP avec captures d'écran
+- [TP_ZIMBRA_CHAMBAL_Henrio.pdf](./TP_ZIMBRA_CHAMBAL_Henrio.pdf) - Compte rendu complet du TP avec captures d'écran
