@@ -1,30 +1,40 @@
-# Mission 6 - RADIUS WiFi - Authentification 802.1X
+# RADIUS WiFi — Authentification 802.1X
 
-## Description
+Mise en place d'un service d'authentification **RADIUS** avec **802.1X** pour securiser l'acces au reseau WiFi de StadiumCompany.
 
-Mise en place d'un service d'authentification **RADIUS** avec **802.1X** pour sécuriser l'accès au réseau WiFi dans le cadre de la **Mission 6** du projet StadiumCompany.
+<span class="tech-badge">NPS</span> <span class="tech-badge">AD CS</span> <span class="tech-badge">802.1X</span> <span class="tech-badge">Windows Server</span>
 
-## Objectifs
+---
 
-- Installer et configurer un serveur RADIUS (NPS) sur Windows Server
-- Mettre en place l'authentification 802.1X
-- Configurer les certificats Active Directory (AD CS)
-- Sécuriser l'accès WiFi via RADIUS
+<div class="grid cards" markdown>
 
-## Technologies utilisées
+-   :material-target: __Objectifs__
 
-- **NPS (Network Policy Server)** - Serveur RADIUS Microsoft
-- **Active Directory Certificate Services** - Gestion des certificats
-- **802.1X** - Protocole d'authentification réseau
-- **Windows Server** - Système d'exploitation serveur
+    - Securiser l'acces WiFi avec authentification forte
+    - Deployer un serveur RADIUS via NPS
+    - Utiliser des certificats numeriques (AD CS)
+    - Implementer le standard 802.1X
 
-## Compétences mobilisées
+-   :material-cog: __Configuration realisee__
 
-- Administration Windows Server
-- Sécurisation des accès réseau
-- Gestion des certificats (PKI)
-- Configuration RADIUS / 802.1X
+    - Installation et configuration de NPS
+    - Mise en place d'une autorite de certification
+    - Parametrage des clients RADIUS (bornes WiFi)
+    - Tests d'authentification avec comptes AD
 
-## Fichiers
+-   :material-school: __Competences mobilisees__
 
-- [Rapport_RADIUS_WiFi.pdf](./Rapport_RADIUS_WiFi.pdf) - Compte rendu complet du TP avec captures d'écran
+    - Administration Windows Server
+    - Gestion des certificats numeriques
+    - Securisation des reseaux sans fil
+    - Authentification centralisee
+
+</div>
+
+---
+
+## Compte rendu complet
+
+<iframe src="./Rapport_RADIUS_WiFi.pdf" width="100%" height="800px" style="border: none;"></iframe>
+
+[:material-download: Telecharger le PDF](./Rapport_RADIUS_WiFi.pdf){ target="_blank" .md-button .md-button--primary }

@@ -1,30 +1,31 @@
-# Thème 15 - StadiumCompany
+# Theme 15 — StadiumCompany
 
-Dossier des Réalisations Professionnelles pour l'épreuve E6 (Administration des systèmes et des réseaux) du BTS SIO SISR.
+Dossier des **Realisations Professionnelles** pour l'epreuve E6. Contexte : infrastructure reseau, supervision et gestion de parc pour StadiumCompany.
 
-Contexte : infrastructure réseau, supervision et gestion de parc pour la société fictive **StadiumCompany** (gestion et administration d'événements sportifs).
+<span class="tech-badge">GLPI</span> <span class="tech-badge">OCS Inventory</span> <span class="tech-badge">Nagios</span> <span class="tech-badge">Zimbra</span> <span class="tech-badge">Active Directory</span>
 
-## Réalisations Professionnelles
+---
 
-### RP1 - Réseau Scanners Tribunes
-[RP1_Documentation_Technique.pdf](./RP1_Documentation_Technique.pdf) — 42 pages
+<div class="grid cards" markdown>
 
-Infrastructure Wi-Fi et gestion des comptes pour les hôtesses d'accueil utilisant des smartphones scanners dans les tribunes.
+-   :material-wifi: __RP1 · Reseau Scanners Tribunes__
 
-Contient les 2 parties qui composent la solution :
+    Infrastructure Wi-Fi pour les hotesses d'accueil avec smartphones scanners.
 
-1. **VLAN 50 & Bornes Wi-Fi Tribunes** — Configuration du VLAN dédié (172.20.5.0/24), trunk 802.1Q, routage inter-VLAN et déploiement des bornes Wi-Fi
-2. **Active Directory & GPO** — Création du groupe et de l'UO "Accueil-Tribunes", déploiement d'une GPO pour le mappage du lecteur H
+    - VLAN 50 dedie (172.20.5.0/24) + trunk 802.1Q
+    - Bornes Wi-Fi et routage inter-VLAN
+    - Active Directory : UO, groupe, GPO mappage lecteur H
 
-### RP2 - Gestion Smartphones et Coordination
-[RP2_Documentation_Technique.pdf](./RP2_Documentation_Technique.pdf) — 75 pages
+    [:material-file-pdf-box: RP1 (42 pages)](./RP1_Documentation_Technique.pdf){ target="_blank" }
 
-Documentation technique du RP2 (la page de garde et la fiche descriptive officielles sont dans le dossier physique).
+-   :material-cellphone-link: __RP2 · Gestion Smartphones__
 
-Contient les 3 services qui composent la solution :
+    3 services deployes pour coordonner les equipes sur le terrain.
 
-1. **OCS Inventory & GLPI** — Gestion de parc smartphones + tickets ITIL (27 étapes)
-2. **Nagios Core** — Supervision des bornes Wi-Fi des tribunes (30 étapes)
-3. **Zimbra** — Messagerie collaborative pour les briefings (14 étapes)
+    - OCS Inventory + GLPI : parc + tickets ITIL
+    - Nagios Core : supervision bornes Wi-Fi
+    - Zimbra : messagerie collaborative
 
-Chaque étape est numérotée, expliquée et accompagnée de sa capture d'écran.
+    [:material-file-pdf-box: RP2 (75 pages)](./RP2_Documentation_Technique.pdf){ target="_blank" }
+
+</div>

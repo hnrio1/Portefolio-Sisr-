@@ -1,29 +1,33 @@
-# TP SSH - Accès distant sécurisé
+# TP SSH — Acces distant securise
 
-## Description
+Mise en place et configuration du protocole **SSH** pour l'acces distant securise aux serveurs de l'infrastructure StadiumCompany.
 
-Mise en place et configuration du protocole **SSH** pour l'accès distant sécurisé aux serveurs de l'infrastructure StadiumCompany.
+<span class="tech-badge">OpenSSH</span> <span class="tech-badge">Linux</span> <span class="tech-badge">Windows Server</span> <span class="tech-badge">Cles RSA</span>
 
-## Objectifs
+---
 
-- Comprendre le fonctionnement du protocole SSH
-- Installer et configurer un serveur SSH
-- Mettre en place l'authentification par clés
-- Sécuriser les connexions distantes
+<div class="grid cards" markdown>
 
-## Technologies utilisées
+-   :material-target: __Objectifs__
 
-- **OpenSSH** - Implémentation du protocole SSH
-- **Linux / Windows Server** - Systèmes d'exploitation
-- **Clés RSA** - Authentification asymétrique
+    - Comprendre le fonctionnement du protocole SSH
+    - Installer et configurer un serveur SSH
+    - Mettre en place l'authentification par cles
+    - Securiser les connexions distantes
 
-## Compétences mobilisées
+-   :material-school: __Competences mobilisees__
 
-- Administration système Linux
-- Sécurisation des accès distants
-- Gestion des clés cryptographiques
-- Configuration de services réseau
+    - Administration systeme Linux
+    - Securisation des acces distants
+    - Gestion des cles cryptographiques
+    - Configuration de services reseau
 
-## Fichiers
+</div>
 
-- [TP_SSH.pdf](./TP_SSH.pdf) - Compte rendu complet du TP
+---
+
+## Compte rendu complet
+
+<iframe src="./TP_SSH.pdf" width="100%" height="800px" style="border: none;"></iframe>
+
+[:material-download: Telecharger le PDF](./TP_SSH.pdf){ target="_blank" .md-button .md-button--primary }

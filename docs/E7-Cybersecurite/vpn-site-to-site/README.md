@@ -1,28 +1,32 @@
-# TP VPN Site-to-Site
+# VPN Site-to-Site (IPsec)
 
-## Description
+Configuration d'un **tunnel VPN IPsec Site-to-Site** pour interconnecter deux reseaux distants de maniere securisee.
 
-Configuration d'un tunnel **VPN Site-to-Site** pour interconnecter deux réseaux distants de manière sécurisée.
+<span class="tech-badge">VPN IPsec</span> <span class="tech-badge">pfSense</span> <span class="tech-badge">VMware</span>
 
-## Objectifs
+---
 
-- Comprendre les principes du VPN (tunneling, chiffrement)
-- Configurer un VPN Site-to-Site entre deux sites
-- Sécuriser les communications inter-sites
-- Tester la connectivité à travers le tunnel
+<div class="grid cards" markdown>
 
-## Technologies utilisées
+-   :material-target: __Objectifs__
 
-- **VPN IPsec** - Protocole de tunneling sécurisé
-- **pfSense / Routeur** - Équipements de terminaison VPN
-- **VMware** - Environnement de virtualisation
+    - Comprendre les principes du VPN (tunneling, chiffrement)
+    - Configurer un VPN Site-to-Site entre deux sites
+    - Securiser les communications inter-sites
+    - Tester la connectivite a travers le tunnel
 
-## Compétences mobilisées
+-   :material-school: __Competences mobilisees__
 
-- Cybersécurité (chiffrement, tunneling)
-- Configuration réseau avancée
-- Interconnexion de sites distants
+    - Cybersecurite (chiffrement, tunneling)
+    - Configuration reseau avancee
+    - Interconnexion de sites distants
 
-## Fichiers
+</div>
 
-- [VPN Site to Site.pdf](./VPN%20Site%20to%20Site.pdf) - Documentation et configuration du VPN
+---
+
+## Compte rendu complet
+
+<iframe src="./VPN%20Site%20to%20Site.pdf" width="100%" height="800px" style="border: none;"></iframe>
+
+[:material-download: Telecharger le PDF](./VPN%20Site%20to%20Site.pdf){ target="_blank" .md-button .md-button--primary }

@@ -1,38 +1,40 @@
-# TP Zimbra - Serveur de Messagerie
+# TP Zimbra — Messagerie collaborative
 
-## Description
+Deploiement d'un serveur de messagerie **Zimbra** integre a l'Active Directory et protege derriere le pare-feu pfSense.
 
-Déploiement d'un serveur de messagerie **Zimbra** intégré à l'infrastructure Active Directory et pfSense du projet StadiumCompany.
+<span class="tech-badge">Zimbra</span> <span class="tech-badge">Ubuntu</span> <span class="tech-badge">DNS</span> <span class="tech-badge">Active Directory</span> <span class="tech-badge">pfSense</span>
 
-## Objectifs
+---
 
-- Installer et configurer Zimbra sur Ubuntu Server
-- Intégrer le serveur de messagerie au DNS Active Directory
-- Configurer les règles de pare-feu (pfSense) pour la DMZ
-- Permettre l'envoi et la réception d'emails en interne
+<div class="grid cards" markdown>
 
-## Technologies utilisées
+-   :material-target: __Objectifs__
 
-- **Zimbra** - Suite de messagerie collaborative
-- **Ubuntu Server** - Système d'exploitation
-- **Active Directory / DNS** - Résolution de noms et intégration domaine
-- **pfSense** - Pare-feu (règles LAN/DMZ)
+    - Deployer un serveur de messagerie professionnelle
+    - Integrer l'authentification Active Directory
+    - Securiser les flux mail via pfSense
+    - Configurer les enregistrements DNS (MX, SPF)
 
-## Étapes principales
+-   :material-cog: __Configuration realisee__
 
-1. Configuration réseau et DNS (hostname, resolv.conf)
-2. Création de l'enregistrement DNS sur le serveur AD
-3. Installation de Zimbra
-4. Configuration des règles de pare-feu LAN ↔ DMZ
-5. Test de la messagerie
+    - Installation Zimbra sur Ubuntu Server
+    - Configuration des zones DNS
+    - Synchronisation LDAP avec AD
+    - Regles pfSense pour SMTP / IMAP
 
-## Compétences mobilisées
+-   :material-school: __Competences mobilisees__
 
-- Administration système Linux
-- Gestion DNS (Active Directory)
-- Configuration de pare-feu
-- Déploiement de services de messagerie
+    - Administration systeme Linux
+    - Gestion de la messagerie d'entreprise
+    - Integration avec un annuaire LDAP
+    - Securisation des services reseau
 
-## Fichiers
+</div>
 
-- [TP_ZIMBRA_CHAMBAL_Henrio.pdf](./TP_ZIMBRA_CHAMBAL_Henrio.pdf) - Compte rendu complet du TP avec captures d'écran
+---
+
+## Compte rendu complet
+
+<iframe src="./TP_ZIMBRA_CHAMBAL_Henrio.pdf" width="100%" height="800px" style="border: none;"></iframe>
+
+[:material-download: Telecharger le PDF](./TP_ZIMBRA_CHAMBAL_Henrio.pdf){ target="_blank" .md-button .md-button--primary }

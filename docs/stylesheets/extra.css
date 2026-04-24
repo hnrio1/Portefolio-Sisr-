@@ -247,6 +247,26 @@ a[href$=".xlsx"]::before {
   font-size: 0.88em;
 }
 
+/* ============ Tech badges ============ */
+.tech-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  margin: 2px 4px 2px 0;
+  border-radius: 20px;
+  font-size: 0.82em;
+  font-weight: 500;
+  background: var(--md-accent-fg-color--transparent);
+  color: var(--md-accent-fg-color);
+  border: 1px solid var(--md-accent-fg-color);
+  transition: all 0.2s;
+}
+
+.tech-badge:hover {
+  background: var(--md-accent-fg-color);
+  color: var(--md-default-bg-color);
+  transform: translateY(-1px);
+}
+
 /* ============ Scrollbar stylisée ============ */
 ::-webkit-scrollbar {
   width: 10px;

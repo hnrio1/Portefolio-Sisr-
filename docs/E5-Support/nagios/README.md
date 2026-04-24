@@ -1,41 +1,40 @@
-# TP Nagios - Supervision Réseau
+# TP Nagios — Supervision Reseau
 
-## Description
+Mise en place d'un serveur de supervision **Nagios Core** pour surveiller l'infrastructure reseau dans le cadre du projet StadiumCompany.
 
-Mise en place d'un serveur de supervision **Nagios Core** pour surveiller l'infrastructure réseau dans le cadre du projet StadiumCompany.
+<span class="tech-badge">Nagios Core</span> <span class="tech-badge">Apache</span> <span class="tech-badge">Debian</span> <span class="tech-badge">NRPE</span>
 
-## Objectifs
+---
 
-- Installer et configurer Nagios Core sur Debian
-- Superviser des hôtes réseau (serveurs, postes clients)
-- Configurer les services de monitoring (HTTP, SSH, Ping)
-- Mettre en place les notifications par email
-- Créer une cartographie réseau (Map Nagios)
+<div class="grid cards" markdown>
 
-## Technologies utilisées
+-   :material-target: __Objectifs__
 
-- **Nagios Core** - Outil de supervision open source
-- **Apache2** - Serveur web pour l'interface Nagios
-- **Debian** - Système d'exploitation serveur
-- **UFW** - Pare-feu
+    - Mettre en place un systeme de supervision centralise
+    - Surveiller les hotes, services et performances reseau
+    - Configurer les alertes email en cas de probleme
+    - Cartographier l'infrastructure supervisee
 
-## Étapes principales
+-   :material-cog: __Configuration realisee__
 
-1. Configuration réseau de la machine Debian
-2. Téléchargement et compilation de Nagios Core
-3. Installation des plugins Nagios
-4. Configuration d'Apache et de l'interface web
-5. Ajout et configuration des hôtes à superviser
-6. Configuration des services de monitoring
-7. Mise en place des alertes email
+    - Installation de Nagios Core sur Debian
+    - Ajout d'hotes et de services a superviser
+    - Configuration des notifications email
+    - Mise en place de NRPE pour la supervision distante
 
-## Compétences mobilisées
+-   :material-school: __Competences mobilisees__
 
-- Administration système Linux
-- Compilation depuis les sources
-- Configuration de services réseau
-- Supervision d'infrastructure
+    - Administration systeme Linux
+    - Configuration de services reseau
+    - Gestion de la supervision et du monitoring
+    - Redaction de documentation technique
 
-## Fichiers
+</div>
 
-- [TP_NAGIOS_CHAMBAL_Henrio.pdf](./TP_NAGIOS_CHAMBAL_Henrio.pdf) - Compte rendu complet du TP avec captures d'écran
+---
+
+## Compte rendu complet
+
+<iframe src="./TP_NAGIOS_CHAMBAL_Henrio.pdf" width="100%" height="800px" style="border: none;"></iframe>
+
+[:material-download: Telecharger le PDF](./TP_NAGIOS_CHAMBAL_Henrio.pdf){ target="_blank" .md-button .md-button--primary }

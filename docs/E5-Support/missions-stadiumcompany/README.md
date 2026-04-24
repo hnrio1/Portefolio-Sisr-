@@ -1,13 +1,29 @@
 # Missions StadiumCompany
 
-## Description
+Missions realisees dans le cadre du projet **StadiumCompany** en BTS SIO SISR.
 
-Missions réalisées dans le cadre du projet **StadiumCompany** en BTS SIO SISR.
+<span class="tech-badge">Infrastructure reseau</span> <span class="tech-badge">VLAN</span> <span class="tech-badge">Routage</span>
 
-## Fichiers
+---
 
-| Fichier | Description |
-|---------|-------------|
-| [mission1.pdf](./mission1.pdf) | Mission 1 |
-| [mission2.pdf](./mission2.pdf) | Mission 2 |
-| [mission3.pdf](./mission3.pdf) | Mission 3 |
+<div class="grid cards" markdown>
+
+-   :material-numeric-1-circle: __Mission 1__
+
+    Restructuration de l'infrastructure reseau : VLAN, VTP, routage inter-VLAN.
+
+    [:material-download: Mission 1 (PDF)](./mission1.pdf){ target="_blank" }
+
+-   :material-numeric-2-circle: __Mission 2__
+
+    Securisation des communications entre sites : SSH, ACL, pare-feu.
+
+    [:material-download: Mission 2 (PDF)](./mission2.pdf){ target="_blank" }
+
+-   :material-numeric-3-circle: __Mission 3__
+
+    Administration du patrimoine informatique : OCS Inventory, GLPI.
+
+    [:material-download: Mission 3 (PDF)](./mission3.pdf){ target="_blank" }
+
+</div>

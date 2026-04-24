@@ -1,30 +1,34 @@
-# TP Snort - Système de Détection d'Intrusion (IDS/IPS)
+# Snort IDS / IPS
 
-## Description
+Mise en place de **Snort 3**, un systeme de detection et prevention d'intrusion, pour analyser le trafic reseau et detecter les menaces en temps reel.
 
-Mise en place et configuration de **Snort**, un système de détection et de prévention d'intrusion (IDS/IPS), pour analyser le trafic réseau et détecter les menaces.
+<span class="tech-badge">Snort 3</span> <span class="tech-badge">Community Rules</span> <span class="tech-badge">Linux</span>
 
-## Objectifs
+---
 
-- Comprendre le fonctionnement d'un IDS/IPS
-- Installer et configurer Snort
-- Déployer les règles communautaires Snort 3
-- Analyser le trafic réseau en temps réel
-- Détecter et alerter sur des activités suspectes
+<div class="grid cards" markdown>
 
-## Technologies utilisées
+-   :material-target: __Objectifs__
 
-- **Snort 3** - IDS/IPS open source
-- **Snort Community Rules** - Règles de détection communautaires
-- **Linux** - Système d'exploitation
+    - Comprendre le fonctionnement d'un IDS/IPS
+    - Installer et configurer Snort 3
+    - Deployer les regles communautaires
+    - Analyser le trafic reseau en temps reel
+    - Detecter et alerter sur les menaces
 
-## Compétences mobilisées
+-   :material-school: __Competences mobilisees__
 
-- Cybersécurité défensive
-- Analyse de trafic réseau
-- Configuration de règles de détection
-- Surveillance d'infrastructure
+    - Cybersecurite defensive
+    - Analyse de trafic reseau
+    - Configuration de regles de detection
+    - Surveillance d'infrastructure
 
-## Fichiers
+</div>
 
-- [SNORT.pdf](./SNORT.pdf) - Documentation et compte rendu du TP
+---
+
+## Compte rendu complet
+
+<iframe src="./SNORT.pdf" width="100%" height="800px" style="border: none;"></iframe>
+
+[:material-download: Telecharger le PDF](./SNORT.pdf){ target="_blank" .md-button .md-button--primary }

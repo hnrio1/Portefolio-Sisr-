@@ -1,42 +1,69 @@
-# TP pfSense - Pare-feu et Sécurité Réseau
+# Pare-feu pfSense
 
-## Description
+Serie de 7 travaux pratiques sur le pare-feu **pfSense** : installation, configuration, securisation, LDAP, portail captif, Snort et OpenVPN.
 
-Série de travaux pratiques couvrant l'installation, la configuration et la sécurisation d'un pare-feu **pfSense** dans le cadre du projet StadiumCompany.
+<span class="tech-badge">pfSense CE 2.7.2</span> <span class="tech-badge">LDAP/LDAPS</span> <span class="tech-badge">Snort</span> <span class="tech-badge">OpenVPN</span> <span class="tech-badge">VMware</span>
 
-## Objectifs
+---
 
-- Installer et configurer pfSense
-- Mettre en place des règles de filtrage réseau
-- Configurer l'authentification LDAP/LDAPS
-- Déployer un portail captif
-- Configurer Snort (IDS/IPS) sur pfSense
-- Mettre en place un VPN avec OpenVPN
+## TPs disponibles
 
-## Technologies utilisées
+<div class="grid cards" markdown>
 
-- **pfSense CE 2.7.2** - Pare-feu open source
-- **LDAP / LDAPS** - Authentification centralisée
-- **Snort** - Détection/prévention d'intrusion
-- **OpenVPN** - VPN SSL
-- **VMware** - Virtualisation
+-   :material-download-circle: __1 · Installation__
 
-## TPs réalisés
+    Installation et premier demarrage de pfSense sur machine virtuelle.
 
-| Fichier | Sujet |
-|---------|-------|
-| [1-installation pfsense.pdf](./1-installation%20pfsense.pdf) | Installation de pfSense |
-| [2-Configuration de base de pfsense.pdf](./2-Configuration%20de%20base%20de%20pfsense.pdf) | Configuration initiale (interfaces, règles) |
-| [3-Sécurité de pfsense.pdf](./3-S%C3%A9curit%C3%A9%20de%20pfsense.pdf) | Sécurisation du pare-feu |
-| [4-pfsense Ldap-Ldaps.pdf](./4-pfsense%20Ldap-Ldaps.pdf) | Authentification LDAP/LDAPS |
-| [5-Portail captive.pdf](./5-Portail%20captive.pdf) | Mise en place du portail captif |
-| [6-snort IDS-IPS.pdf](./6-snort%20IDS-IPS.pdf) | Configuration de Snort (IDS/IPS) |
-| [7-openvpn.pdf](./7-openvpn.pdf) | Déploiement d'OpenVPN |
+    [:material-file-pdf-box: Voir le PDF](./1-installation%20pfsense.pdf){ target="_blank" }
 
-## Compétences mobilisées
+-   :material-tune: __2 · Configuration de base__
 
-- Administration de pare-feu
-- Sécurisation d'infrastructure réseau
-- Configuration VPN
-- Détection d'intrusion (IDS/IPS)
-- Authentification centralisée (LDAP)
+    Configuration des interfaces WAN / LAN, regles de filtrage initiales.
+
+    [:material-file-pdf-box: Voir le PDF](./2-Configuration%20de%20base%20de%20pfsense.pdf){ target="_blank" }
+
+-   :material-shield: __3 · Securite__
+
+    Durcissement du pare-feu et regles de securite avancees.
+
+    [:material-file-pdf-box: Voir le PDF](./3-S%C3%A9curit%C3%A9%20de%20pfsense.pdf){ target="_blank" }
+
+-   :material-account-lock: __4 · LDAP / LDAPS__
+
+    Integration de l'authentification centralisee avec Active Directory.
+
+    [:material-file-pdf-box: Voir le PDF](./4-pfsense%20Ldap-Ldaps.pdf){ target="_blank" }
+
+-   :material-wifi-lock: __5 · Portail captif__
+
+    Mise en place d'un portail captif pour les utilisateurs du reseau.
+
+    [:material-file-pdf-box: Voir le PDF](./5-Portail%20captive.pdf){ target="_blank" }
+
+-   :material-radar: __6 · Snort IDS/IPS__
+
+    Configuration de Snort pour la detection et prevention d'intrusion.
+
+    [:material-file-pdf-box: Voir le PDF](./6-snort%20IDS-IPS.pdf){ target="_blank" }
+
+-   :material-vpn: __7 · OpenVPN__
+
+    Deploiement d'un VPN SSL pour l'acces distant securise.
+
+    [:material-file-pdf-box: Voir le PDF](./7-openvpn.pdf){ target="_blank" }
+
+</div>
+
+---
+
+<div class="grid cards" markdown>
+
+-   :material-school: __Competences mobilisees__
+
+    - Administration de pare-feu open source
+    - Securisation d'infrastructure reseau
+    - Configuration de VPN SSL
+    - Detection d'intrusion (IDS/IPS)
+    - Authentification centralisee LDAP
+
+</div>
