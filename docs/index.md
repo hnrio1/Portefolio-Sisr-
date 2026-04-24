@@ -1,107 +1,110 @@
 ---
 hide:
   - navigation
+  - toc
 ---
 
-# Portfolio SISR — Henrio Chambal
+# Henrio Chambal
 
----
+**Etudiant BTS SIO option SISR — En recherche d'alternance en cybersecurite**
 
-## A propos de moi
-
-Etudiant en 2e annee de **BTS SIO option SISR** (Solutions d'Infrastructure, Systemes et Reseaux), je me prepare activement a mon examen tout en recherchant une alternance en cybersecurite.
-
-Apres un Bac STMG et un BTS Communication obtenu en 2022, j'ai decouvert le domaine de la cybersecurite, un secteur qui m'a immediatement passionne et dans lequel je souhaite construire ma carriere.
-
----
-
-## Objectifs professionnels
-
-- :mortar_board: Obtenir mon BTS SIO option SISR
-- :shield: Integrer une formation en alternance orientee cybersecurite (Bac+3)
-- :lock: Evoluer vers un poste d'analyste SOC ou de pentester
+[:fontawesome-brands-github: GitHub](https://github.com/hnrio1){ .md-button }
+[:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/henrio-chambal-b185361a8/){ .md-button }
+[:fontawesome-solid-envelope: Email](mailto:henriochambal5@gmail.com){ .md-button .md-button--primary }
 
 ---
 
-## Competences techniques
+## A propos
 
-| Domaine | Technologies |
-|---------|-------------|
-| **Systemes** | Windows Server (AD, DNS, DHCP, GPO), Linux (Debian, Ubuntu) |
-| **Reseau & Securite** | pfSense, VPN IPsec, Snort IDS/IPS, RADIUS 802.1X |
-| **Supervision** | Nagios, GLPI, OCS Inventory |
-| **Virtualisation** | VMware Workstation |
-| **Automatisation** | Ansible, Bash, PowerShell, Python |
+Etudiant en 2e annee de **BTS SIO option SISR**, je me prepare activement a mon examen tout en recherchant une alternance en cybersecurite. Apres un Bac STMG et un BTS Communication, j'ai decouvert le domaine de la cybersecurite — un secteur qui m'a immediatement passionne.
 
 ---
 
-## Mes realisations
+## Competences
 
-### :wrench: E5 — Support et mise a disposition de services
+<div class="grid cards" markdown>
 
-| Projet | Technologies |
-|--------|-------------|
-| [Supervision Nagios](E5-Support/nagios/README.md) | Nagios Core, Apache, Debian |
-| [Messagerie Zimbra](E5-Support/zimbra/README.md) | Zimbra, Ubuntu, DNS, pfSense |
-| [RADIUS WiFi](E5-Support/mission-6-radius-wifi/README.md) | NPS, AD CS, 802.1X |
-| [SSH](E5-Support/ssh/README.md) | OpenSSH, cles RSA |
-| [Missions StadiumCompany](E5-Support/missions-stadiumcompany/README.md) | Infrastructure reseau |
-| [Active Directory](E5-Support/active-directory/README.md) | Windows Server 2022, AD DS, DNS, DHCP |
-| [HAProxy & HeartBeat](E5-Support/mission-4-haproxy-heartbeat/README.md) | HAProxy, Heartbeat, Debian |
-| [Pare-feu pfSense](E5-Support/pfsense/README.md) | pfSense, Snort, OpenVPN, LDAP |
+-   :material-server: __Systemes__
 
-### :globe_with_meridians: E6 — Administration des systemes et des reseaux
+    Windows Server (AD, DNS, DHCP, GPO), Linux (Debian, Ubuntu Server)
 
-| Projet | Technologies |
-|--------|-------------|
-| [GLPI & OCS Inventory](E6-Admin-Reseau/theme-15/README.md) | GLPI, OCS Inventory, MariaDB |
+-   :material-lan: __Reseau & Securite__
 
-### :closed_lock_with_key: E7 — Cybersecurite
+    pfSense, VPN IPsec, Snort IDS/IPS, RADIUS 802.1X
 
-| Projet | Technologies |
-|--------|-------------|
-| [Snort IDS/IPS](E7-Cybersecurite/snort-ids/README.md) | Snort 3, Linux |
-| [VPN Site-to-Site](E7-Cybersecurite/vpn-site-to-site/README.md) | VPN IPsec, pfSense |
+-   :material-chart-line: __Supervision__
+
+    Nagios, GLPI, OCS Inventory, Zimbra
+
+-   :material-cog: __Automatisation__
+
+    Ansible, Bash, PowerShell, Python
+
+</div>
 
 ---
 
-## Stages
+## Realisations
 
-### Institut Pasteur — Juin/Juillet 2025
+<div class="grid cards" markdown>
 
-| Projet | Technologies |
-|--------|-------------|
-| [Deploiement Nextcloud avec Ansible](Stage/pasteur/nextcloud-ansible/README.md) | Ansible, Nextcloud, Apache, MariaDB, Linux |
+-   :material-wrench: __E5 — Support__
 
-### Cabinet CECCA — Nov/Dec 2025
+    Supervision, messagerie, authentification, pare-feu, Active Directory...
 
-| Projet | Technologies |
-|--------|-------------|
-| [Scripts d'extraction de donnees](Stage/cecca/scripts-extraction/README.md) | Python, OCR, pdfplumber, regex |
+    [:octicons-arrow-right-24: Voir les TPs](E5-Support/nagios/README.md)
+
+-   :material-network: __E6 — Admin Reseau__
+
+    Gestion de parc (GLPI, OCS Inventory), documentation technique
+
+    [:octicons-arrow-right-24: Voir les TPs](E6-Admin-Reseau/theme-15/README.md)
+
+-   :material-shield-lock: __E7 — Cybersecurite__
+
+    IDS/IPS avec Snort, VPN Site-to-Site en IPsec
+
+    [:octicons-arrow-right-24: Voir les TPs](E7-Cybersecurite/snort-ids/README.md)
+
+-   :material-briefcase: __Stages__
+
+    Institut Pasteur (Nextcloud + Ansible) · Cabinet CECCA (Python, cybersecu)
+
+    [:octicons-arrow-right-24: Voir les stages](Stage/pasteur/nextcloud-ansible/README.md)
+
+-   :material-code-tags: __Projets personnels__
+
+    Scripts de diagnostic reseau et de sauvegarde (PowerShell / Bash)
+
+    [:octicons-arrow-right-24: Voir les projets](Projets-Perso/diagnostic-reseau/README.md)
+
+-   :material-radar: __Veille technologique__
+
+    CERT-FR (ANSSI), MITRE ATT&CK, fiches CVE
+
+    [:octicons-arrow-right-24: Voir la veille](Veille-Technologique/README.md)
+
+</div>
 
 ---
 
-## Projets personnels
-
-| Projet | Technologies |
-|--------|-------------|
-| [Script de diagnostic reseau](Projets-Perso/diagnostic-reseau/README.md) | PowerShell, Bash |
-| [Script de backup](Projets-Perso/script-backup/README.md) | PowerShell, Bash |
-
----
-
-## Formation
+## Parcours
 
 | Annee | Diplome | Etablissement |
 |-------|---------|---------------|
-| 2025-2026 | BTS SIO option SISR | IRIS |
+| **2025-2026** | BTS SIO option SISR | IRIS |
 | 2022 | BTS Communication | Obtenu |
 | 2020 | Bac STMG | Obtenu |
 
----
+## Stages
 
-## Me contacter
+| Periode | Entreprise | Missions |
+|---------|------------|----------|
+| **Nov-Dec 2025** | Cabinet CECCA | Gestion vulnerabilites CVE, cartographie cloud, automatisation Python |
+| **Juin-Juil 2025** | Institut Pasteur | Deploiement Nextcloud avec Ansible, securisation Linux |
 
-- :material-github: [GitHub](https://github.com/hnrio1)
-- :material-linkedin: [LinkedIn](https://www.linkedin.com/in/henrio-chambal-b185361a8/)
-- :material-email: henriochambal5@gmail.com
+## Objectifs
+
+- :mortar_board: Obtenir le BTS SIO SISR
+- :shield: Trouver une alternance Bac+3 en cybersecurite
+- :lock: Devenir analyste SOC ou pentester

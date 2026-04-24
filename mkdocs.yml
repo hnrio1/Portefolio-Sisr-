@@ -83,6 +83,7 @@ docs_dir: docs
 markdown_extensions:
   - tables
   - attr_list
+  - md_in_html
   - def_list
   - admonition
   - pymdownx.details
