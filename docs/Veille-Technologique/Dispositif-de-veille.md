@@ -13,21 +13,11 @@
 
 ---
 
-## Sources
+## Source : CERT-FR (ANSSI)
 
-### Source principale : CERT-FR (ANSSI)
-
-Le **CERT-FR**, rattaché à l'**ANSSI**, est le centre gouvernemental français de veille et d'alerte en cybersécurité. Ses bulletins sont la référence pour tout professionnel travaillant sur une infrastructure française.
+Le **CERT-FR**, rattaché à l'**ANSSI** (Agence Nationale de la Sécurité des Systèmes d'Information), est le centre gouvernemental français de veille et d'alerte en cybersécurité. Ses bulletins sont la référence pour tout professionnel travaillant sur une infrastructure française.
 
 - [cert.ssi.gouv.fr](https://www.cert.ssi.gouv.fr/) — alertes, avis, bulletins d'actualité
-
-### Sources complémentaires
-
-| Source | Lien | Intérêt |
-|--------|------|---------|
-| **Bleeping Computer** | [bleepingcomputer.com](https://www.bleepingcomputer.com/) | Actualité cybersécurité internationale |
-| **The Hacker News** | [thehackernews.com](https://thehackernews.com/) | Synthèses des incidents cybersécurité |
-| **NVD (CVE Details)** | [nvd.nist.gov](https://nvd.nist.gov/) | Base de données officielle des CVE |
 
 ---
 
