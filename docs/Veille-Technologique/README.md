@@ -1,24 +1,33 @@
 # Veille Technologique
 
-**Sujet :** Suivi des alertes de cybersécurité du CERT-FR (ANSSI) et des vulnérabilités impactant les infrastructures SISR.
+**Sujet :** Suivi des alertes de cybersécurité du CERT-FR (ANSSI).
 
-**Cadre :** Veille réalisée dans le cadre du BTS SIO option SISR, en lien avec le bloc 2 *Administration des systèmes et des réseaux* et l'objectif professionnel d'analyste SOC.
+<span class="tech-badge">CERT-FR</span> <span class="tech-badge">ANSSI</span> <span class="tech-badge">Google Alerts</span>
 
-## Pourquoi ce sujet ?
+---
 
-En tant que futur professionnel de l'administration réseau et de la cybersécurité, la capacité à suivre les alertes de sécurité et à en comprendre l'impact sur une infrastructure est une compétence fondamentale. Le **CERT-FR**, rattaché à l'**ANSSI** (Agence Nationale de la Sécurité des Systèmes d'Information), est la source officielle française d'information sur les menaces et vulnérabilités en cybersécurité.
+## Méthode
 
-Suivre le CERT-FR me permet de :
-- Connaître les vulnérabilités critiques qui touchent les systèmes que j'administre (Windows Server, Linux Debian, pfSense, Apache, etc.)
-- Anticiper les correctifs à appliquer sur une infrastructure
-- Développer mon œil critique sur l'actualité cybersécurité
-- Me préparer à un métier en SOC où l'analyse des alertes est quotidienne
+J'utilise **Google Alerts** avec 3 alertes configurées (`cybersécurité vulnérabilité`, `CERT-FR ANSSI`, `CVE critical vulnerability`) qui m'envoient automatiquement les articles par mail. En complément, je consulte le site du [CERT-FR](https://www.cert.ssi.gouv.fr/) pour les bulletins officiels de l'ANSSI.
 
-## Contenu de cette section
+**Routine hebdomadaire (~20 min) :** lecture des alertes → sélection des infos qui concernent mes systèmes (Windows Server, Linux, pfSense, Apache, AD, SSH) → rédaction d'une fiche de veille.
 
-| Document | Description |
-|----------|-------------|
-| [Dispositif de veille](./Dispositif-de-veille.md) | Comment je fais ma veille : sources, outils, fréquence, méthode |
-| [Étude approfondie - MITRE ATT&CK](./Etude-MITRE-ATTCK.md) | Étude d'un framework de référence en cybersécurité défensive |
-| [Fiches de veille](./Fiches/) | Synthèses hebdomadaires des informations collectées |
+---
 
+## Résultats
+
+<div class="grid cards" markdown>
+
+-   :material-ssh: __regreSSHion — OpenSSH__
+
+    CVE-2024-6387 — Exécution de code en root à distance sur SSH, score CVSS 8.1.
+
+    [:octicons-arrow-right-24: Lire la fiche](Fiches/2025-09-15-faille-openssh.md)
+
+-   :material-microsoft-windows: __Zerologon — Active Directory__
+
+    CVE-2020-1472 — Prise de contrôle du domaine AD sans mot de passe, score CVSS 10.0.
+
+    [:octicons-arrow-right-24: Lire la fiche](Fiches/2026-01-10-faille-windows-ad.md)
+
+</div>

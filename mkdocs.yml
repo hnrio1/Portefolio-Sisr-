@@ -73,11 +73,8 @@ nav:
     - Script de backup: Projets-Perso/script-backup/README.md
   - Veille Technologique:
     - Presentation: Veille-Technologique/README.md
-    - Dispositif de veille: Veille-Technologique/Dispositif-de-veille.md
-    - Etude MITRE ATT&CK: Veille-Technologique/Etude-MITRE-ATTCK.md
-    - Fiches de veille:
-      - OpenSSH regreSSHion: Veille-Technologique/Fiches/2025-09-15-faille-openssh.md
-      - Zerologon AD: Veille-Technologique/Fiches/2026-01-10-faille-windows-ad.md
+    - Fiche OpenSSH regreSSHion: Veille-Technologique/Fiches/2025-09-15-faille-openssh.md
+    - Fiche Zerologon AD: Veille-Technologique/Fiches/2026-01-10-faille-windows-ad.md
 
 docs_dir: docs
 
