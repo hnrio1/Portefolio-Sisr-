@@ -105,6 +105,6 @@ Etudiant en 2e annee de **BTS SIO option SISR**, je me prepare activement a mon 
 
 ## Objectifs
 
-- :mortar_board: Obtenir le BTS SIO SISR
-- :shield: Trouver une alternance Bac+3 en cybersecurite
-- :lock: Devenir analyste SOC ou pentester
+- :mortar_board: Obtenir mon BTS SIO SISR
+- :books: Poursuivre jusqu'au Master en cybersecurite
+- :shield: Exercer un metier d'analyste ou de consultant en cybersecurite
