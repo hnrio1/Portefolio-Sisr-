@@ -77,9 +77,7 @@ nav:
     - Etude MITRE ATT&CK: Veille-Technologique/Etude-MITRE-ATTCK.md
     - Fiches de veille:
       - OpenSSH regreSSHion: Veille-Technologique/Fiches/2025-09-15-faille-openssh.md
-      - XSS pfSense: Veille-Technologique/Fiches/2025-11-20-faille-pfsense-xss.md
       - Zerologon AD: Veille-Technologique/Fiches/2026-01-10-faille-windows-ad.md
-      - Path Traversal Apache: Veille-Technologique/Fiches/2026-03-05-faille-apache-path-traversal.md
 
 docs_dir: docs
 
