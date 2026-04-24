@@ -8,17 +8,20 @@ theme:
   language: fr
   palette:
     - scheme: slate
-      primary: indigo
-      accent: cyan
+      primary: black
+      accent: light green
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-night
         name: Mode clair
     - scheme: default
-      primary: indigo
-      accent: cyan
+      primary: black
+      accent: deep purple
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-sunny
         name: Mode sombre
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
     - navigation.instant
     - navigation.instant.progress

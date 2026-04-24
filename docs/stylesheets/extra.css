@@ -1,82 +1,163 @@
+/* ============ Variables globales ============ */
+:root {
+  --accent-gradient: linear-gradient(135deg, #00d4aa 0%, #00b4d8 100%);
+  --hero-gradient: linear-gradient(135deg, rgba(0, 212, 170, 0.08) 0%, rgba(0, 180, 216, 0.08) 100%);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-accent-fg-color: #00d4aa;
+  --md-accent-fg-color--transparent: rgba(0, 212, 170, 0.1);
+  --card-bg: #1e1f22;
+  --card-border: rgba(255, 255, 255, 0.06);
+  --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+[data-md-color-scheme="default"] {
+  --card-bg: #ffffff;
+  --card-border: rgba(0, 0, 0, 0.06);
+  --card-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
 /* ============ Typographie ============ */
 .md-typeset h1 {
-  font-weight: 700;
-  font-size: 2.4em;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.2em;
+  font-weight: 800;
+  font-size: 3em;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.1em;
   border-bottom: none;
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .md-typeset h1 + p {
-  font-size: 1.15em;
+  font-size: 1.2em;
   color: var(--md-default-fg-color--light);
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
+  font-weight: 400;
 }
 
 .md-typeset h2 {
-  font-weight: 600;
-  margin-top: 2em;
-  padding-bottom: 8px;
-  border-bottom: 2px solid var(--md-primary-fg-color);
-  display: inline-block;
+  font-weight: 700;
+  font-size: 1.6em;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+  letter-spacing: -0.01em;
+  position: relative;
+  padding-left: 14px;
+  border: none;
+  display: block;
 }
 
-/* ============ Boutons ============ */
+.md-typeset h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10%;
+  bottom: 10%;
+  width: 4px;
+  border-radius: 2px;
+  background: var(--accent-gradient);
+}
+
+/* ============ Boutons d'action ============ */
 .md-typeset .md-button {
   margin: 4px 6px 4px 0;
-  border-radius: 6px;
-  font-weight: 500;
-  transition: all 0.2s;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 0.55em 1.2em;
+  transition: all 0.25s ease;
+  border: 1px solid var(--card-border);
 }
 
 .md-typeset .md-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.md-typeset .md-button--primary {
+  background: var(--accent-gradient);
+  border: none;
+  color: #001; /* foncé pour contraste sur gradient clair */
+}
+
+.md-typeset .md-button--primary:hover {
+  filter: brightness(1.1);
+  color: #001;
 }
 
 /* ============ Cartes (grid cards) ============ */
+.md-typeset .grid.cards {
+  gap: 1rem;
+}
+
 .md-typeset .grid.cards > ul > li,
 .md-typeset .grid.cards > .card {
-  border-radius: 10px;
-  border: 1px solid rgba(var(--md-default-fg-color--rgb), 0.1);
-  background: var(--md-default-bg-color);
-  padding: 1em 1.2em;
-  transition: all 0.25s ease;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 14px;
+  border: 1px solid var(--card-border);
+  background: var(--card-bg);
+  padding: 1.2em 1.4em;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--card-shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+.md-typeset .grid.cards > ul > li::before,
+.md-typeset .grid.cards > .card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--accent-gradient);
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 .md-typeset .grid.cards > ul > li:hover,
 .md-typeset .grid.cards > .card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-  border-color: var(--md-primary-fg-color);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+  border-color: var(--md-accent-fg-color);
+}
+
+.md-typeset .grid.cards > ul > li:hover::before,
+.md-typeset .grid.cards > .card:hover::before {
+  opacity: 1;
 }
 
 .md-typeset .grid.cards > ul > li > :first-child,
 .md-typeset .grid.cards > .card > :first-child {
   margin-top: 0;
+  font-size: 1.1em;
+  font-weight: 600;
 }
 
 /* ============ Tableaux ============ */
 .md-typeset table:not([class]) {
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  border: none;
+  box-shadow: var(--card-shadow);
+  border: 1px solid var(--card-border);
 }
 
 .md-typeset table:not([class]) thead {
-  background-color: var(--md-primary-fg-color);
-  color: var(--md-primary-bg-color);
+  background: var(--accent-gradient);
+  color: #001;
 }
 
 .md-typeset table:not([class]) th {
-  font-weight: 600;
-  padding: 12px 16px;
+  font-weight: 700;
+  padding: 14px 18px;
+  letter-spacing: 0.02em;
 }
 
 .md-typeset table:not([class]) td {
-  padding: 10px 16px;
+  padding: 12px 18px;
+  border-bottom: 1px solid var(--card-border);
 }
 
 .md-typeset table:not([class]) tbody tr {
@@ -84,24 +165,27 @@
 }
 
 .md-typeset table:not([class]) tbody tr:hover {
-  background-color: rgba(var(--md-primary-fg-color--rgb), 0.06);
+  background-color: var(--md-accent-fg-color--transparent);
 }
 
 /* ============ Liens PDF / Excel ============ */
 .md-typeset a[href$=".pdf"],
 .md-typeset a[href$=".xlsx"] {
   display: inline-block;
-  padding: 4px 10px;
-  border-radius: 5px;
-  background-color: rgba(var(--md-primary-fg-color--rgb), 0.08);
+  padding: 5px 12px;
+  border-radius: 6px;
+  background-color: var(--md-accent-fg-color--transparent);
   text-decoration: none;
   font-weight: 500;
-  transition: background 0.2s;
+  transition: all 0.2s;
+  border: 1px solid transparent;
 }
 
 .md-typeset a[href$=".pdf"]:hover,
 .md-typeset a[href$=".xlsx"]:hover {
-  background-color: rgba(var(--md-primary-fg-color--rgb), 0.18);
+  background-color: transparent;
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
 }
 
 a[href$=".pdf"]::before {
@@ -114,34 +198,70 @@ a[href$=".xlsx"]::before {
 
 /* ============ Images ============ */
 .md-typeset img {
-  border-radius: 8px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  box-shadow: var(--card-shadow);
   max-width: 100%;
-}
-
-/* ============ Horizontal rules ============ */
-.md-typeset hr {
-  margin: 2.5em 0;
-  border-color: rgba(var(--md-default-fg-color--rgb), 0.1);
-}
-
-/* ============ Footer social ============ */
-.md-social__link {
-  transition: transform 0.2s;
-}
-
-.md-social__link:hover {
-  transform: scale(1.2);
 }
 
 /* ============ Iframes (PDF viewer) ============ */
 .md-typeset iframe {
-  border-radius: 8px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  box-shadow: var(--card-shadow);
+}
+
+/* ============ Horizontal rules ============ */
+.md-typeset hr {
+  margin: 3em 0;
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent,
+    var(--card-border) 20%,
+    var(--card-border) 80%,
+    transparent);
+}
+
+/* ============ Footer social ============ */
+.md-social__link {
+  transition: transform 0.2s, color 0.2s;
+}
+
+.md-social__link:hover {
+  transform: scale(1.2) translateY(-2px);
+  color: var(--md-accent-fg-color);
+}
+
+/* ============ Header (top bar) ============ */
+.md-header {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.md-tabs {
+  box-shadow: none;
 }
 
 /* ============ Code blocks ============ */
 .md-typeset code {
   border-radius: 4px;
-  padding: 0.1em 0.4em;
+  padding: 0.15em 0.45em;
+  font-size: 0.88em;
+}
+
+/* ============ Scrollbar stylisée ============ */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.3);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--md-accent-fg-color);
 }
