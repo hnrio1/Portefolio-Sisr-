@@ -1,6 +1,8 @@
-# HAProxy & HeartBeat — Haute disponibilite
+# Redondance & Haute disponibilite
 
-Mise en place d'une infrastructure **hautement disponible** avec **HeartBeat** (tolerance de panne) et **HAProxy** (repartition de charge) sur Debian 12.
+Mise en place d'une infrastructure **redondante et hautement disponible** avec **HeartBeat** (tolerance de panne) et **HAProxy** (repartition de charge) sur Debian 12.
+
+> Meme principe que **HSRP** sur routeurs Cisco : assurer la continuite de service en cas de panne d'un equipement.
 
 <span class="tech-badge">HAProxy</span> <span class="tech-badge">HeartBeat</span> <span class="tech-badge">Debian 12</span> <span class="tech-badge">VRRP</span>
 

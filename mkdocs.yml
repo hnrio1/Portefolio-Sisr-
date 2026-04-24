@@ -58,7 +58,7 @@ nav:
     - SSH: E5-Support/ssh/README.md
     - Missions StadiumCompany: E5-Support/missions-stadiumcompany/README.md
     - Active Directory: E5-Support/active-directory/README.md
-    - HAProxy & HeartBeat: E5-Support/mission-4-haproxy-heartbeat/README.md
+    - Redondance & Haute dispo: E5-Support/mission-4-haproxy-heartbeat/README.md
     - Pare-feu pfSense: E5-Support/pfsense/README.md
   - E6 - Admin Reseau:
     - GLPI & OCS Inventory: E6-Admin-Reseau/theme-15/README.md
