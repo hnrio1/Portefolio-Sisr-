@@ -16,7 +16,7 @@ Dossier des **Realisations Professionnelles** pour l'epreuve E6. Contexte : infr
     - Bornes Wi-Fi et routage inter-VLAN
     - Active Directory : UO, groupe, GPO mappage lecteur H
 
-    [:material-file-pdf-box: Fiche descriptive RP1](./RP1_Pages_Officielles.pdf){ target="_blank" }
+    [:material-file-document-outline: Fiche descriptive RP1](./RP1_Pages_Officielles.pdf){ target="_blank" } &nbsp; [:material-file-pdf-box: Documentation technique RP1 (42 pages)](./RP1_Documentation_Technique.pdf){ target="_blank" }
 
 -   :material-cellphone-link: __RP2 · Gestion Smartphones__
 
@@ -26,6 +26,6 @@ Dossier des **Realisations Professionnelles** pour l'epreuve E6. Contexte : infr
     - Nagios Core : supervision bornes Wi-Fi
     - Zimbra : messagerie collaborative
 
-    [:material-file-pdf-box: Fiche descriptive RP2](./RP2_Pages_Officielles.pdf){ target="_blank" }
+    [:material-file-document-outline: Fiche descriptive RP2](./RP2_Pages_Officielles.pdf){ target="_blank" } &nbsp; [:material-file-pdf-box: Documentation technique RP2 (75 pages)](./RP2_Documentation_Technique.pdf){ target="_blank" }
 
 </div>
