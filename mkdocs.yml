@@ -67,8 +67,12 @@ nav:
       - Snort IDS/IPS: E7-Cybersecurite/snort-ids/README.md
       - VPN Site-to-Site: E7-Cybersecurite/vpn-site-to-site/README.md
     - Stages:
-      - Institut Pasteur: Stage/pasteur/nextcloud-ansible/README.md
-      - Cabinet CECCA: Stage/cecca/scripts-extraction/README.md
+      - Institut Pasteur:
+        - Presentation: Stage/pasteur/index.md
+        - Deploiement Nextcloud Ansible: Stage/pasteur/nextcloud-ansible/README.md
+      - Cabinet CECCA:
+        - Presentation: Stage/cecca/index.md
+        - Scripts Python OCR: Stage/cecca/scripts-extraction/README.md
   - Epreuve E6:
     - Vue d'ensemble: E6-Admin-Reseau/index.md
     - StadiumCompany - RP1 & RP2: E6-Admin-Reseau/theme-15/README.md
