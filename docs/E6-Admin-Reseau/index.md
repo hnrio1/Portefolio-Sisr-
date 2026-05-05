@@ -18,11 +18,11 @@ Mes deux réalisations s'articulent autour des **hôtesses d'accueil** qui scann
 
 <div class="grid cards" markdown>
 
--   :material-wifi: __Réseau Scanners Tribunes__
+-   :material-microsoft-windows: __Active Directory__
+
+    *Réalisation Professionnelle n°1 — Réseau Scanners Tribunes*
 
     Infrastructure réseau Wi-Fi pour les hôtesses d'accueil avec smartphones scanners.
-
-    **Outils principaux :** Active Directory, Cisco, Wi-Fi
 
     - VLAN 50 dédié (172.20.5.0/24) + trunk 802.1Q
     - Bornes Wi-Fi Cisco AIR-CAP3502I (SSID Host-Wifi)
@@ -30,11 +30,11 @@ Mes deux réalisations s'articulent autour des **hôtesses d'accueil** qui scann
 
     [:octicons-arrow-right-24: Voir la réalisation](theme-15/README.md)
 
--   :material-cellphone-link: __Gestion Smartphones et Coordination__
+-   :material-package-variant: __GLPI / OCS Inventory__
+
+    *Réalisation Professionnelle n°2 — Gestion Smartphones et Coordination*
 
     Gestion du parc de smartphones et coordination des équipes pendant les événements.
-
-    **Outils principaux :** GLPI, OCS Inventory, Zimbra, Nagios
 
     - OCS Inventory + GLPI : inventaire smartphones + tickets ITIL
     - Zimbra : liste de diffusion accueil@stadiumcompany.com
