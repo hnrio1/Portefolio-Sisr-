@@ -50,25 +50,29 @@ extra:
 
 nav:
   - Accueil: index.md
-  - E5 - Support:
+  - Epreuve E5:
+    - Vue d'ensemble: E5-Support/index.md
     - Tableau de synthese: Tableau-de-synthese/README.md
-    - Supervision Nagios: E5-Support/nagios/README.md
-    - Messagerie Zimbra: E5-Support/zimbra/README.md
-    - RADIUS WiFi: E5-Support/mission-6-radius-wifi/README.md
-    - SSH: E5-Support/ssh/README.md
-    - Missions StadiumCompany: E5-Support/missions-stadiumcompany/README.md
-    - Active Directory: E5-Support/active-directory/README.md
-    - Redondance & Haute dispo: E5-Support/mission-4-haproxy-heartbeat/README.md
-    - Pare-feu pfSense: E5-Support/pfsense/README.md
-  - E6 - Admin Reseau:
-    - GLPI & OCS Inventory: E6-Admin-Reseau/theme-15/README.md
-  - E7 - Cybersecurite:
-    - Snort IDS/IPS: E7-Cybersecurite/snort-ids/README.md
-    - VPN Site-to-Site: E7-Cybersecurite/vpn-site-to-site/README.md
-  - Stages:
-    - Pasteur - Nextcloud Ansible: Stage/pasteur/nextcloud-ansible/README.md
-    - CECCA - Scripts extraction: Stage/cecca/scripts-extraction/README.md
-  - Projets Perso:
+    - Infrastructure & Reseau:
+      - Active Directory: E5-Support/active-directory/README.md
+      - Pare-feu pfSense: E5-Support/pfsense/README.md
+      - Redondance & Haute dispo: E5-Support/mission-4-haproxy-heartbeat/README.md
+      - Missions StadiumCompany: E5-Support/missions-stadiumcompany/README.md
+    - Services aux utilisateurs:
+      - Supervision Nagios: E5-Support/nagios/README.md
+      - Messagerie Zimbra: E5-Support/zimbra/README.md
+      - SSH: E5-Support/ssh/README.md
+      - RADIUS WiFi: E5-Support/mission-6-radius-wifi/README.md
+    - Cybersecurite:
+      - Snort IDS/IPS: E7-Cybersecurite/snort-ids/README.md
+      - VPN Site-to-Site: E7-Cybersecurite/vpn-site-to-site/README.md
+    - Stages:
+      - Institut Pasteur: Stage/pasteur/nextcloud-ansible/README.md
+      - Cabinet CECCA: Stage/cecca/scripts-extraction/README.md
+  - Epreuve E6:
+    - Vue d'ensemble: E6-Admin-Reseau/index.md
+    - Theme 15 - StadiumCompany: E6-Admin-Reseau/theme-15/README.md
+  - Projets personnels:
     - Diagnostic reseau: Projets-Perso/diagnostic-reseau/README.md
     - Script de backup: Projets-Perso/script-backup/README.md
   - Veille Technologique:

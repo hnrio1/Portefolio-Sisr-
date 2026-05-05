@@ -44,43 +44,39 @@ Etudiant en 2e annee de **BTS SIO option SISR**, je me prepare activement a mon 
 
 ---
 
-## Realisations
+## Mes epreuves
 
 <div class="grid cards" markdown>
 
--   :material-wrench: __E5 — Support__
+-   :material-wrench: __Epreuve E5__
 
-    Supervision, messagerie, authentification, pare-feu, Active Directory...
+    Support et mise a disposition de services informatiques. Infrastructure, services aux utilisateurs, cybersecurite et stages.
 
-    [:octicons-arrow-right-24: Voir les TPs](E5-Support/nagios/README.md)
+    [:octicons-arrow-right-24: Voir l'E5](E5-Support/index.md)
 
--   :material-network: __E6 — Admin Reseau__
+-   :material-network: __Epreuve E6__
 
-    Gestion de parc (GLPI, OCS Inventory), documentation technique
+    Administration des systemes et des reseaux. Mes deux Realisations Professionnelles (RP1 et RP2) du projet StadiumCompany.
 
-    [:octicons-arrow-right-24: Voir les TPs](E6-Admin-Reseau/theme-15/README.md)
+    [:octicons-arrow-right-24: Voir l'E6](E6-Admin-Reseau/index.md)
 
--   :material-shield-lock: __E7 — Cybersecurite__
+</div>
 
-    IDS/IPS avec Snort, VPN Site-to-Site en IPsec
+---
 
-    [:octicons-arrow-right-24: Voir les TPs](E7-Cybersecurite/snort-ids/README.md)
+## Autres realisations
 
--   :material-briefcase: __Stages__
-
-    Institut Pasteur (Nextcloud + Ansible) · Cabinet CECCA (Python, cybersecu)
-
-    [:octicons-arrow-right-24: Voir les stages](Stage/pasteur/nextcloud-ansible/README.md)
+<div class="grid cards" markdown>
 
 -   :material-code-tags: __Projets personnels__
 
-    Scripts de diagnostic reseau et de sauvegarde (PowerShell / Bash)
+    Scripts de diagnostic reseau et de sauvegarde (PowerShell / Bash).
 
     [:octicons-arrow-right-24: Voir les projets](Projets-Perso/diagnostic-reseau/README.md)
 
 -   :material-radar: __Veille technologique__
 
-    CERT-FR (ANSSI), MITRE ATT&CK, fiches CVE
+    CERT-FR (ANSSI), MITRE ATT&CK, fiches CVE.
 
     [:octicons-arrow-right-24: Voir la veille](Veille-Technologique/README.md)
 
