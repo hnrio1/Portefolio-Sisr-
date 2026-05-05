@@ -96,8 +96,8 @@ Etudiant en 2e annee de **BTS SIO option SISR**, je me prepare activement a mon 
 
 | Periode | Entreprise | Missions |
 |---------|------------|----------|
-| **Nov-Dec 2025** | Cabinet CECCA | Gestion vulnerabilites CVE, cartographie cloud, automatisation Python |
 | **Juin-Juil 2025** | Institut Pasteur | Deploiement Nextcloud avec Ansible, securisation Linux |
+| **Nov-Dec 2025** | Cabinet CECCA | Gestion vulnerabilites CVE, cartographie cloud, automatisation Python |
 
 ## Objectifs
 
