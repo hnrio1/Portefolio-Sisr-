@@ -64,15 +64,9 @@ Etudiant en 2e annee de **BTS SIO option SISR**, je me prepare activement a mon 
 
 ---
 
-## Autres realisations
+## Veille technologique
 
 <div class="grid cards" markdown>
-
--   :material-code-tags: __Projets personnels__
-
-    Scripts de diagnostic reseau et de sauvegarde (PowerShell / Bash).
-
-    [:octicons-arrow-right-24: Voir les projets](Projets-Perso/diagnostic-reseau/README.md)
 
 -   :material-radar: __Veille technologique__
 

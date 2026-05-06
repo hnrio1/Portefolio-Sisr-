@@ -76,9 +76,6 @@ nav:
   - Epreuve E6:
     - Vue d'ensemble: E6-Admin-Reseau/index.md
     - StadiumCompany - RP1 & RP2: E6-Admin-Reseau/theme-15/README.md
-  - Projets personnels:
-    - Diagnostic reseau: Projets-Perso/diagnostic-reseau/README.md
-    - Script de backup: Projets-Perso/script-backup/README.md
   - Veille Technologique:
     - Presentation: Veille-Technologique/README.md
     - Fiche OpenSSH regreSSHion: Veille-Technologique/Fiches/2025-09-15-faille-openssh.md
